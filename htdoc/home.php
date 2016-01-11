@@ -22,11 +22,15 @@
   </head>
 
   <body>
-    <div class="fun">
-      <h1>WELCOME</h1>
-      <p>
-        You may have reached this page in error. There's a high probablity you are looking for my class site which can be found <a href="/cs1520.html">here</a>.
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 centered">
+          <h1 class=>WELCOME</h1>
+          <p>
+            There's a good chance you're looking for my class site, you can get there by clicking <a href="/cs1520.html">here</a>.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
