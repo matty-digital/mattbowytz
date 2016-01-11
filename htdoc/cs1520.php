@@ -575,7 +575,16 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">PHP Slides</p>
+            <p class="uc red-txt bold">Lecture Slides</p>
+            <ul>
+              <li>
+                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1</a>
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">PHP/HTML Slides</p>
             <p>Coming Soon!</p>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
