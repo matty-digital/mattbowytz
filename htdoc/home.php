@@ -27,7 +27,7 @@
         <div class="col-lg-12 centered">
           <h1 class=>WELCOME</h1>
           <p>
-            There's a good chance you're looking for my class site, you can get there by clicking <a href="/cs1520.html">here</a>.
+            There's a good chance you're looking for my class site, you can get there by clicking <a href="/cs1520.php">here</a>.
           </p>
         </div>
       </div>
