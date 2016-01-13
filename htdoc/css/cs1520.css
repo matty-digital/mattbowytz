@@ -138,6 +138,10 @@ h1, h3 {
   padding-bottom: 150px;
 }
 
+.block.b-ten {
+  clear: both;
+}
+
 @media(min-width:767px) {
   .navbar {
     padding: 20px 0;
