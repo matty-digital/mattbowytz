@@ -313,7 +313,7 @@
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Office Hours</p>
             <ul>
-              <li>Monday 5:55pm - 6:55 pm</li>
+              <li>Monday 5:55pm - 6:55pm</li>
               <li>By Appointment</li>
             </ul>
           </div>
@@ -343,8 +343,9 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Office Hours</p>
-            <p>TBA</p>
+            <p class="uc red-txt bold">Office Hours 5501</p>
+            <p>Tuesday 1:00pm - 5:00pm</p>
+            <p>Thursday 10:0am - 12:00pm</p>
           </div>
         </div>        
       </div>
@@ -522,19 +523,7 @@
             <p class="uc red-txt bold">Exercise 2</p>
             <ul class="ex-list">
               <li class="requirements">
-                Requirements: Write a script and run it using your Web Server, according to the following specifications:
-              </li>
-              <li>
-                The initial page, <b>ex2.html</b>, should have one form field called <b>name</b>, plus a submit button. It should ask the user to register his / her name. Upon submission, the page should request the script <b>ex2.php</b>.  
-              </li>
-              <li>
-                The script <b>ex2.php</b> should extract the name, then read in the contents of file <b>names.txt</b>. The file <b>names.txt</b> will have a single name on each line of the file. If the name submitted by the user matches any of the names in the file, the script should output <b>[Name], you have previously registered</b>. Otherwise, the script should append the new name to the end of the <b>names.txt</b> file and output <b>[Name], your name has been registered</b>. <i>Hint:You may want to make use of the rtrim() function. Look it up to see why.</i>
-              </li>
-              <li>
-                Run the script several times for the instructor to demonstrate its full functionality.
-              </li>
-              <li>
-                Show resulting page to the instructor
+                PHP Practice! More details in class!
               </li>
             </ul>
           </div>
@@ -578,7 +567,10 @@
             <p class="uc red-txt bold">Lecture Slides</p>
             <ul>
               <li>
-                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1</a>
+                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1 (follow)</a> | <a href="/deliverables/slides/BowytzLect1.pdf" download="BowytzLect1.pdf">Lecture 1 (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/BowytzLect2.pdf">Lecture 2 (follow)</a> | <a href="/deliverables/slides/BowytzLect2.pdf" download="BowytzLect2.pdf">Lecture 2 (get)</a>
               </li>
             </ul>
           </div>
@@ -647,13 +639,13 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/cs1520/deliverables/ex1/ex1.txt">ex1.txt</a>
+                      <a href="/deliverables/ex1/ex1.txt">ex1.txt (follow)</a> | <a href="/deliverables/ex1/ex1.txt" download="ex1.txt">ex1.txt (get)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex1/ex1.html">ex1.html</a>
+                      <a href="/deliverables/ex1/ex1.html">ex1.html (follow)</a> | <a href="/deliverables/ex1/ex1.html" download="ex1.html">ex1.html (get)</a> 
                     </li>
                     <li>
-                      <a href="/deliverables/ex1/ex1.php">ex1.php</a>
+                      <a href="/deliverables/ex1/ex1.php">ex1.php (follow)</a> | <a href="/deliverables/ex1/ex1.php" download="ex1.php">ex1.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -662,7 +654,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex2/ex2.php">ex2.php</a>
+                      <a href="/deliverables/ex2/ex2.php">ex2.php (follow)</a> | <a href="/deliverables/ex2/ex2.php" download="ex2.php">ex2.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -671,16 +663,16 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3.php">ex3.php</a>
+                      <a href="/deliverables/ex3/ex3.php">ex3.php (follow)</a> | <a href="/deliverables/ex3/ex3.php" download="ex3.php">ex3.php (get)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3b.php">ex3b.php</a>
+                      <a href="/deliverables/ex3/ex3b.php">ex3b.php (follow)</a> | <a href="/deliverables/ex3/ex3b.php" download="ex3b.php">ex3b.php (get)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3c.html">ex3c.html</a>
+                      <a href="/deliverables/ex3/ex3c.html">ex3c.html (follow)</a> | <a href="/deliverables/ex3/ex3c.html" download="ex3c.html">ex3c.html (get)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3wrong.php">ex3wrong.php</a>
+                      <a href="/deliverables/ex3/ex3wrong.php">ex3wrong.php (follow)</a> | <a href="/deliverables/ex3/ex3wrong.php" download="ex3wrong.php">ex3wrong.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -689,7 +681,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex4/ex4.php">ex4.php</a>
+                      <a href="/deliverables/ex4/ex4.php">ex4.php (follow)</a> | <a href="/deliverables/ex4/ex4.php" download="ex4.php">ex4.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -698,7 +690,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex5/ex5.php">ex5.php</a>
+                      <a href="/deliverables/ex5/ex5.php">ex5.php (follow)</a> | <a href="/deliverables/ex5/ex5.php" download="ex5.php">ex5.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -707,7 +699,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex6/ex6.php">ex6.php</a>
+                      <a href="/deliverables/ex6/ex6.php">ex6.php (follow)</a> | <a href="/deliverables/ex6/ex6.php" download="ex6.php">ex6.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -716,10 +708,10 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/mail/mail.php">mail.php</a>
+                      <a href="/deliverables/mail/mail.php">mail.php (follow)</a> | <a href="/deliverables/mail/mail.php" download="mail.php">mail.php (get)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/mail/mail.php">sendmail.php</a>
+                      <a href="/deliverables/mail/sendmail.php">sendmail.php (follow)</a> | <a href="/deliverables/mail/mail.php" download="sendmail.php">sendmail.php (get)</a>
                     </li>
                   </ul>
                 </div>
