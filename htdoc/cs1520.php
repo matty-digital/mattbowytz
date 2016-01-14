@@ -794,7 +794,7 @@
                 <a href="http://www.stackoverflow.com">StackOverflow</a>
               </li>
               <li class="b-ten">
-                <a href="http://www.cs.pitt.edu/undergrad/crc">CS Peer Tutoring Schedule</a>
+                <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>
               </li>
               <li class="b-ten">
                 <a href="http://www.provost.pitt.edu/information-on/calendar.html">Academic Calendar</a>
