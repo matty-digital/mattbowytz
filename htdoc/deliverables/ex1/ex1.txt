@@ -1,9 +1,0 @@
-CS 1520 Spring 2015
-Simple Text Document
-
-This is Text!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat elit, tincidunt eget nisl a, aliquam dapibus libero. Nam scelerisque arcu nec erat lobortis pellentesque. Curabitur blandit, risus at volutpat mattis, enim tellus tempor arcu, suscipit aliquet est orci at augue. Maecenas nisl tellus, luctus et risus in, feugiat pharetra nunc. Fusce elementum venenatis dapibus. Fusce vel erat convallis elit euismod malesuada vitae in lectus. Vivamus porta est nec fringilla porta.
-
-For more information, see:
-http://www.lipsum.com/
