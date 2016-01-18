@@ -775,6 +775,9 @@
                       <a href="/deliverables/mail/mail.php">mail.php (follow)</a>
                     </li>
                     <li>
+                      <a href="/deliverables/mail/sendmail.php">sendmail.php (follow)</a>
+                    </li>
+                    <li>
                       <a href="/deliverables/mail/mail.zip">mail.zip (get)</a>
                     </li>
                   </ul>
