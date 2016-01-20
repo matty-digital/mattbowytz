@@ -177,10 +177,10 @@
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Grading Requirements:</p>
             <ul>
-              <li>Exam One: 24%</li>
-              <li>Exam Two: 24%</li>
-              <li>Programs: 34%</li>
-              <li>In Class Exercises: 8%</li>
+              <li>Exam One: 20%</li>
+              <li>Exam Two: 20%</li>
+              <li>Project: 40%</li>
+              <li>In Class Exercises: 10%</li>
               <li>Quizzes: 10%</li>
             </ul>
           </div>
@@ -219,25 +219,25 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Programs</p>
+            <p class="uc red-txt bold">Project</p>
             <ul>
               <li>
-                There will be approximately 4-5 Programming Projects assigned throughout the term. (This number could be subject to change, given the complexity of the programs and other factors)
+                In addition to the tests and quizzes, we will create a personal website which will utilize everyhting we have learned thus far.
               </li>
               <li>
-                Programs will be submitted electronically to a submission site set up for the course. More details on submission guidelines will be provided on the course web site.
+                This will be split out into 2 sections. The first section will incorporate concepts we have gone over up until about the halfway point of class. You'll never guess what the second sections is about...
               </li>
               <li>
-                On-time projects must be received at the submission site by 11:59PM on the due date. Any project received after this time will be considered to be LATE.
+                You are free to leverage front end frameworks for visual appearance and some functionality. Bootstrap and Foundation are two of the most popular and actively supported platforms.
               </li>
               <li>
-                Late projects must be received at the submission site by 11:59PM on the late due date. Late projects will be penalized 15 points (out of 100). Projects submitted after the late due date will not be graded and will receive a score of 0.
+                I will be paying attention to the quality of code you write. This can include such things as consistent spacing, php writing style, etc. It doesn't matter which style you adopt, just stick to it! Comment on code when necessary, and keep the code clean and human readable.
               </li>
               <li>
-                Students are expected to have a backup disk (or storage somewhere) for every assignment they turn in. This way, if there is any problem with the copy that is handed in the backup can be used for grading purposes.
+                This will be a "flat" site. This means that we will not implement any server side frameworks or MVC structures.
               </li>
               <li>
-                More details on the programs and submission guidelines will be given with the first assignment.
+                Specific details will arrive soon!
               </li>
             </ul>
           </div>
@@ -250,9 +250,6 @@
               </li>
               <li>
                 In class exercises must be demonstrated using each student's own Web server (XAMPP), either installed and run on a personal machine or installed on a flash drive and run in a classroom machine.
-              </li>
-              <li>
-                Each in class exercise is worth 1% toward the overall course grade.
               </li>
               <li>
                 The actual number of exercises may vary throughout the term.
@@ -361,6 +358,21 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
+            <ul class="info-bubble last-row">
+              <li class="info-date">1.17.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Site has been updated with .zip files that should now download properly!
+              </li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Lectures 1 through 3 are now available to view and/or download.
+              </li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Recitation is in full swing!
+              </li>
+            </ul>
             <ul class="info-bubble last-row">
               <li class="info-date">1.9.16</li>
               <li class="info">
@@ -567,17 +579,36 @@
             <p class="uc red-txt bold">Lecture Slides</p>
             <ul>
               <li>
-                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1 (follow)</a> | <a href="/deliverables/slides/BowytzLect1.pdf" download="BowytzLect1.pdf">Lecture 1 (get)</a>
+                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1 (follow)</a> | <a href="/deliverables/slides/BowytzLect1.zip">Lecture 1 (get)</a>
               </li>
               <li>
-                <a href="/deliverables/slides/BowytzLect2.pdf">Lecture 2 (follow)</a> | <a href="/deliverables/slides/BowytzLect2.pdf" download="BowytzLect2.pdf">Lecture 2 (get)</a>
+                <a href="/deliverables/slides/BowytzLect2.pdf">Lecture 2 (follow)</a> | <a href="/deliverables/slides/BowytzLect2.zip">Lecture 2 (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/BowytzLect3.pdf">Lecture 3 (follow)</a> | <a href="/deliverables/slides/BowytzLect3.zip">Lecture 3 (get)</a>
               </li>
             </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">PHP/HTML Slides</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                <a href="/deliverables/slides/Chapter1.pdf">Ch 1 (follow)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter2.pdf">Ch 2 (follow)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter3.pdf">Ch 3 (follow)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter9.pdf">Ch 9 (follow)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/book.zip">Text Slides (Ch. 1, 2, 3, 9) (get)</a>
+              </li>
+            </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
@@ -639,13 +670,16 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex1/ex1.txt">ex1.txt (follow)</a> | <a href="/deliverables/ex1/ex1.txt" download="ex1.txt">ex1.txt (get)</a>
+                      <a href="/deliverables/ex1/ex1.txt">ex1.txt (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex1/ex1.html">ex1.html (follow)</a> | <a href="/deliverables/ex1/ex1.html" download="ex1.html">ex1.html (get)</a> 
+                      <a href="/deliverables/ex1/ex1.html">ex1.html (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex1/ex1.php">ex1.php (follow)</a> | <a href="/deliverables/ex1/ex1.php" download="ex1.php">ex1.php (get)</a>
+                      <a href="/deliverables/ex1/ex1.php">ex1.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex1/ex1.zip">ex1.zip (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -654,7 +688,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex2/ex2.php">ex2.php (follow)</a> | <a href="/deliverables/ex2/ex2.php" download="ex2.php">ex2.php (get)</a>
+                      <a href="/deliverables/ex2/ex2.php">ex2.php (follow)</a> | <a href="/deliverables/ex2/ex2.zip">ex2.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -663,16 +697,19 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3.php">ex3.php (follow)</a> | <a href="/deliverables/ex3/ex3.php" download="ex3.php">ex3.php (get)</a>
+                      <a href="/deliverables/ex3/ex3.php">ex3.php (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3b.php">ex3b.php (follow)</a> | <a href="/deliverables/ex3/ex3b.php" download="ex3b.php">ex3b.php (get)</a>
+                      <a href="/deliverables/ex3/ex3b.php">ex3b.php (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3c.html">ex3c.html (follow)</a> | <a href="/deliverables/ex3/ex3c.html" download="ex3c.html">ex3c.html (get)</a>
+                      <a href="/deliverables/ex3/ex3c.html">ex3c.html (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/ex3/ex3wrong.php">ex3wrong.php (follow)</a> | <a href="/deliverables/ex3/ex3wrong.php" download="ex3wrong.php">ex3wrong.php (get)</a>
+                      <a href="/deliverables/ex3/ex3wrong.php">ex3wrong.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex3/ex3.zip">ex3.zip (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -681,7 +718,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex4/ex4.php">ex4.php (follow)</a> | <a href="/deliverables/ex4/ex4.php" download="ex4.php">ex4.php (get)</a>
+                      <a href="/deliverables/ex4/ex4.php">ex4.php (follow)</a> | <a href="/deliverables/ex4/ex4.php.zip">ex4.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -690,7 +727,7 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex5/ex5.php">ex5.php (follow)</a> | <a href="/deliverables/ex5/ex5.php" download="ex5.php">ex5.php (get)</a>
+                      <a href="/deliverables/ex5/ex5.php">ex5.php (follow)</a> | <a href="/deliverables/ex5/ex5.php.zip">ex5.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -699,7 +736,34 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/ex6/ex6.php">ex6.php (follow)</a> | <a href="/deliverables/ex6/ex6.php" download="ex6.php">ex6.php (get)</a>
+                      <a href="/deliverables/ex6/ex6.php">ex6.php (follow)</a> | <a href="/deliverables/ex6/ex6.php.zip">ex6.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX7 Arrays and accessing them</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex7/ex7.php">ex7.php (follow)</a> | <a href="/deliverables/ex7/ex7.zip">ex7.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX8 More on arrays and accessing them</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex8/ex8.php">ex8.php (follow)</a> | <a href="/deliverables/ex8/ex8.php.zip">ex8.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX9 Even more on arrays</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex9/ex9.php">ex9.php (follow)</a> | <a href="/deliverables/ex9/ex9.zip">ex9.php (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
@@ -708,10 +772,13 @@
                       <span class="glyphicon glyphicon-cloud-download"></span>
                     </li>
                     <li>
-                      <a href="/deliverables/mail/mail.php">mail.php (follow)</a> | <a href="/deliverables/mail/mail.php" download="mail.php">mail.php (get)</a>
+                      <a href="/deliverables/mail/mail.php">mail.php (follow)</a>
                     </li>
                     <li>
-                      <a href="/deliverables/mail/sendmail.php">sendmail.php (follow)</a> | <a href="/deliverables/mail/mail.php" download="sendmail.php">sendmail.php (get)</a>
+                      <a href="/deliverables/mail/sendmail.php">sendmail.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/mail/mail.zip">mail.zip (get)</a>
                     </li>
                   </ul>
                 </div>
