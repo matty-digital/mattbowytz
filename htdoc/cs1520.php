@@ -535,7 +535,28 @@
             <p class="uc red-txt bold">Exercise 2</p>
             <ul class="ex-list">
               <li class="requirements">
-                PHP Practice! More details in class!
+                Requirements: Write scripts and run them using your Web Server, according to the following specifications:
+              </li>
+              <li>
+                Create 2 php scripts. One will act as an HTML view and the other will act as an include file.
+              </li>
+              <li>
+                The included file may contain any PHP functionality that will affect the view
+              </li>
+              <li>
+                Use a minimum of 3 variables
+              </li>
+              <li>
+                At least one array
+              </li>
+              <li>
+                A simple conditional statement
+              </li>
+              <li>
+                Use part of one of the global PHP variables we spoke about in class
+              </li>
+              <li>
+                In the view, iterate through the array(s) and display their output via HTML
               </li>
             </ul>
           </div>
