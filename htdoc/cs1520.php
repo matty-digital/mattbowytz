@@ -359,6 +359,21 @@
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
             <ul class="info-bubble last-row">
+              <li class="info-date">1.21.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                One 1.20.16, I mentioned that it was ok to open a PHP tag like this: <code><? ?></code>
+              </li>              
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                This may or may not work for you. That being said, from now on we should open a PHP tage like this: <code><?php  ?></code>
+              </li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                I've also added more specific guidelines about the in-class assignment (which is due on 1.27.16) if you haven't finished it or are confused about anything
+              </li>
+            </ul>
+            <ul class="info-bubble last-row">
               <li class="info-date">1.17.16</li>
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
@@ -557,6 +572,9 @@
               </li>
               <li>
                 In the view, iterate through the array(s) and display their output via HTML
+              </li>
+              <li>
+                Compress the two files and email them to me by 1.27.16
               </li>
             </ul>
           </div>
