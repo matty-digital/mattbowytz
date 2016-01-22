@@ -362,11 +362,11 @@
               <li class="info-date">1.21.16</li>
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
-                One 1.20.16, I mentioned that it was ok to open a PHP tag like this: <code><? ?></code>
+                One 1.20.16, I mentioned that it was ok to open a PHP tag like this: <code>&lt;? ?&gt;</code>
               </li>              
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
-                This may or may not work for you. That being said, from now on we should open a PHP tage like this: <code><?php  ?></code>
+                This may or may not work for you. That being said, from now on we should open a PHP tage like this: <code>&lt;?php  ?&gt;</code>
               </li>
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
