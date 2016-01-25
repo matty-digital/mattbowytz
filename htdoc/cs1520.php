@@ -246,7 +246,10 @@
             <p class="uc red-txt bold">In Class Exercises</p>
             <ul>
               <li>
-                Each Wednesday (section 1) or Monday (section 2) at the end of lecture there will be a short in class exercise. These exercises will be graded via brief demonstrations to the instructor.
+                <span class="bold">NOTE:</span> Please do not copy and paste source code from the example files that are found on this site. All code written for in-class exercises should be written by you. Example files should only be used as a reference.
+              </li>
+              <li>
+                As often as possible, we will have in-class exercises. You can also think of these as a type of homework assignment as well, as they won't officially be due until one week wfter they are assigned.
               </li>
               <li>
                 In class exercises must be demonstrated using each student's own Web server (XAMPP), either installed and run on a personal machine or installed on a flash drive and run in a classroom machine.
@@ -342,9 +345,25 @@
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Office Hours 5501</p>
             <p>Tuesday 1:00pm - 5:00pm</p>
-            <p>Thursday 10:0am - 12:00pm</p>
+            <p>Thursday 10:00am - 12:00pm</p>
           </div>
-        </div>        
+        </div>
+        <div class="row">
+          <div class="col-lg-12 centered">
+            <p class="med">Vivek Punjabi</p>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered b-ten">
+            <p class="uc red-txt bold">Contact</p>
+            <span class="glyphicon glyphicon-envelope"></span>
+            <a href="mailto:vdp6@cs.pitt.edu">vdp6@cs.pitt.edu</a>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Office Hours 5501</p>
+            <p>Friday 10:00am - 12:00pm</p>
+          </div>
+        </div>       
       </div>
     </section>
 
@@ -574,7 +593,7 @@
                 In the view, iterate through the array(s) and display their output via HTML
               </li>
               <li>
-                Compress the two files and email them to me by 1.27.16
+                Compress the two files and email them to me by 1.27.16 or 2.1.16, depending on what section you are in
               </li>
             </ul>
           </div>
@@ -803,6 +822,84 @@
                     </li>
                     <li>
                       <a href="/deliverables/ex9/ex9.php">ex9.php (follow)</a> | <a href="/deliverables/ex9/ex9.zip">ex9.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX10 Functions</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex10/ex10.php">ex10.php (follow)</a> | <a href="/deliverables/ex10/ex10.zip">ex10.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX11 More Functions</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex11/ex11.php">ex11.php (follow)</a> | <a href="/deliverables/ex11/ex11.php.zip">ex11.php (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">EX12 Forms And Files</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex12/ex12.php">ex12.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex12/ex12b.php">ex12b.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/ex12/ex12.zip">ex12.zip (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">GetPost</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/getpost/getpost.php">getpost.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/getpost/getpost.html">getpost.html (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/getpost/getpost.zip">getpost.zip (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">Read/Write</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/readwrite/readwrite.php">readwrite.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/readwrite/filedemo.txt">filedemo.txt (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/readwrite/readwrite.zip">readwrite.zip (get)</a>
+                    </li>
+                  </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">Flock</li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                    </li>
+                    <li>
+                      <a href="/deliverables/flock/flock.php">flock.php (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/flock/flockdemo.txt">flockdemo.txt (follow)</a>
+                    </li>
+                    <li>
+                      <a href="/deliverables/flock/flock.zip">flock.zip (get)</a>
                     </li>
                   </ul>
                   <ul class="col-list">
