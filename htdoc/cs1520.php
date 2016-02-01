@@ -277,8 +277,13 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered last-row">
             <p class="uc red-txt bold">Important Dates</p>
+            <p class="uc red-txt bold">(Subject to change)</p>
             <ul>
-              <li>Coming Soon!</li>
+              <li>2.8.16 - Quiz 1</li>
+              <li>2.29.16 - Exam 1</li>
+              <li>3.7.16 - Project Part 1</li>
+              <li>3.28.16 - Quiz 2</li>
+              <li>4.18.16 - Exam 2 &amp; Project PArt 2</li>
             </ul>
           </div>
         </div>
@@ -377,6 +382,17 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
+            <ul class="info-bubble last-row">
+              <li class="info-date">1.31.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                I have added prospective dates for quizzes, exams and projects.
+              </li>              
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                I have also added In-Class Exercise 3 to the list.
+              </li>
+            </ul>
             <ul class="info-bubble last-row">
               <li class="info-date">1.21.16</li>
               <li class="info">
@@ -518,6 +534,12 @@
               <li class="syl-item">
                 PHP arrays: idea, structure and use; iterating and sorting; nested arrays
               </li>
+              <li class="syl-item">
+                Forms, HTTP Post, Get
+              </li>
+              <li class="syl-item">
+                Working with files in PHP
+              </li>
             </ul>
             <ul class="syl-list last-row">
               <li class="syl-title">References</li>
@@ -600,6 +622,33 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Exercise 3</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: Write a script and run it using your Web Server, according to the following specifications:
+              </li>
+              <li>
+                The initial page, "ex3.html", should have a form with an input called "name". It should ask the user to register his / her name. Upon submission, the page should request the script "ex3.php".
+              </li>
+              <li>
+                The script "ex3.php" should extract the name, then read in the contents of a file called "names.txt". The file "names.txt" will have a single name on each line of the file. 
+                If the name submitted by the user matches any of the names in the file, the script should output "[Name], you've already been registered". 
+                Otherwise, the script should append the new name to the end of the "names.txt" file and output "Congratulations [Name], you've been registered!". 
+                Hint:You may want to make use of the rtrim() function. Look it up to see why.
+              </li>
+              <li>
+                Style the form and output. You don't have to go crazy, just make sure it looks presentable.
+              </li>
+              <li>
+                Create a .zip file with your files and email them to me. The .zip file should be named [name]_exercise3.zip.
+              </li>
+              <li>
+                Feel free to use class example files as a reference, but do not reuse any of the code in the way it appears in those files.
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 4</p>
             <ul class="ex-list">
               <li class="requirements">
                 Requirements:
