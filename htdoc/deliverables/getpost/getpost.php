@@ -6,6 +6,8 @@
 <?php
        # Printing out submitted form values.  Also look in the URL of
        # the Web page to see difference between GET and POST
+      
+      var_dump($_POST);
 
        echo "POST variables: <br />";
        while ($curr = each($_POST)): 
