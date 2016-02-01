@@ -557,6 +557,43 @@
               </li>
             </ul>
           </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Lecture 4</p>
+            <ul class="syl-list">
+              <li class="syl-title">Concept</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-education"></span>
+              </li>
+              <li class="syl-item">
+                PHP OOP
+              </li>
+              <li class="syl-item">
+                PHP sort() instabilities
+              </li>
+              <li class="syl-item">
+                Intro to databases
+              </li>
+              <li class="syl-item">
+                mySQL intro
+              </li>
+            </ul>
+            <ul class="syl-list last-row">
+              <li class="syl-title">References</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-file"></span>
+              </li>
+              <li class="syl-item">
+                Handouts
+              </li>
+              <li class="syl-item">
+                Notes
+              </li>
+              <li class="syl-item">
+                Sebesta: Ch 13
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
