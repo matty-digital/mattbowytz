@@ -1,0 +1,35 @@
+<!-- carsdata.html
+     Use a form to collect a query against the cars
+     database.  
+
+NOTE:
+     The original script called by this file gives unrestricted access
+     to the database since any query could be entered here.  Thus, I have
+     added an id and password field to it.  Only you should know the
+     password for your database.  Generally, arbitrary queries to a database
+     by the end user will NOT be allowed.
+
+     Call the PHP script access_cars.php to perform
+     the given query and display the results
+     -->
+<!doctype html>
+<html>
+  <head>
+    <title> Access to the cars database </title>
+  </head>
+  
+  <body>
+    <div>
+      Please enter your query:
+      <br />
+      <form action  = "access_cars.php" method = "post">
+        <textarea  rows = "2"  cols = "80" name = "query" ></textarea>
+        <br /><br />
+        MySql Id: <input type = "text" name = "id"/><br />
+        Password: <input type = "password" name = "pass"/><br />
+        <input type = "reset"  value = "Reset" />
+        <input type = "submit"  value = "Submit request" />
+      </form>
+    </div>
+  </body>
+</html>

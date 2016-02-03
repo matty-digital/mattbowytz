@@ -1,0 +1,28 @@
+Script started on Thu Jun  4 10:25:44 2015
+bash-3.2$ echo $xbin
+/Applications/XAMPP/xamppfiles/bin/
+bash-3.2$ $xbin/mysql -u root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1
+Server version: 5.6.24 Source distribution
+
+Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database Weasel;
+Query OK, 1 row affected (0.05 sec)
+
+mysql> grant all on Weasel.* to Weasel@localhost identified by 'weasel-man';
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> quit
+Bye
+bash-3.2$ exit
+exit
+
+Script done on Thu Jun  4 10:26:54 2015

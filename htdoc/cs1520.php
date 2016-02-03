@@ -683,30 +683,6 @@
               </li>
             </ul>
           </div>
-          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-          <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Exercise 4</p>
-            <ul class="ex-list">
-              <li class="requirements">
-                Requirements:
-              </li>
-              <li>
-                Install the PHPMailer class onto your Webserver so that you can send mail from your server utilizing either your Pitt Email account or another valid mail server.
-              </li>
-              <li>
-                The PHPMailer files can be found <a href="https://github.com/Synchro/PHPMailer">here</a>
-              </li>
-              <li>
-                You may have to change some settings on your server and update your include path in order to utilize these files. See the <b>mail.php</b> and <b>sendmail.php</b> handouts from lecture for help.
-              </li>
-              <li>
-                One particular issue that you may have is a security error obtaining the certificate for smtp.pitt.edu. This may be because your server does not have the CA Bundle (Certificate Authority Bundle) installed. You can get the file from the internet or <a href="/deliverables/ca-bundle.crt">here</a>. You will need to put this file into a directory accessible to your server and then set the value of the <b>openssl.cafile</b> configuration variable within the <b>php.ini</b> file in your server. On my server, the <b>php.ini</b> file was located at <b>HOME/xamppfiles/etc/</b> , where <b>HOME</b> is the root directory of my XAMPP installation.
-              </li>
-              <li>
-                Demonstrate your site by using the <b>mail.php</b> and <b>sendmail.php</b> scripts to send yourself an email in front of your instructor. You must have some mail client open (either on a computer or phone or tablet) to show that the mail has been delivered.
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
@@ -751,6 +727,12 @@
               </li>
               <li>
                 <a href="/deliverables/slides/book.zip">Text Slides (Ch. 1, 2, 3, 9) (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter13.pdf">Ch 12 (follow)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter13.zip">Ch 12 (get)</a>
               </li>
             </ul>
           </div>
