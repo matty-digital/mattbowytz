@@ -283,7 +283,7 @@
               <li>2.29.16 - Exam 1</li>
               <li>3.7.16 - Project Part 1</li>
               <li>3.28.16 - Quiz 2</li>
-              <li>4.18.16 - Exam 2 &amp; Project PArt 2</li>
+              <li>4.18.16 - Exam 2 &amp; Project Part 2</li>
             </ul>
           </div>
         </div>
