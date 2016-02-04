@@ -281,7 +281,7 @@
             <ul>
               <li>2.8.16 - Quiz 1</li>
               <li>2.29.16 - Exam 1</li>
-              <li>3.7.16 - Project Part 1</li>
+              <li>3.14.16 - Project Part 1</li>
               <li>3.28.16 - Quiz 2</li>
               <li>4.18.16 - Exam 2 &amp; Project Part 2</li>
             </ul>
@@ -729,10 +729,10 @@
                 <a href="/deliverables/slides/book.zip">Text Slides (Ch. 1, 2, 3, 9) (get)</a>
               </li>
               <li>
-                <a href="/deliverables/slides/Chapter13.pdf">Ch 12 (follow)</a>
+                <a href="/deliverables/slides/Chapter13.pdf">Ch 13 (follow)</a>
               </li>
               <li>
-                <a href="/deliverables/slides/Chapter13.zip">Ch 12 (get)</a>
+                <a href="/deliverables/slides/Chapter13.zip">Ch 13 (get)</a>
               </li>
             </ul>
           </div>
