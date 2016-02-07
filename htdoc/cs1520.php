@@ -383,6 +383,47 @@
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
             <ul class="info-bubble last-row">
+              <li class="info-date">2.7.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                You may have noticed that there are now a few In-Class Exercises. These can be completed in recitation between now and the end of the class.
+              </li>              
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                All of the exercises are still a required component of the class. I just wanted to throw these out there so you can think about them ahead of time.
+              </li>
+            </ul>
+            <ul class="info-bubble last-row">
+              <li class="info-date">2.5.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Project plan will be due next week. Shouldn't be too hard, but will benefit you in the long run.
+              </li>              
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                All details for the class project can be found in the projects section.
+              </li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Please, please, please see me or the TA if you need help with planning the project or anything else of that nature. It's best to nail down a solid plan before any development work should begin.
+              </li>
+            </ul>
+            <ul class="info-bubble last-row">
+              <li class="info-date">1.21.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                One 1.20.16, I mentioned that it was ok to open a PHP tag like this: <code>&lt;? ?&gt;</code>
+              </li>              
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                This may or may not work for you. That being said, from now on we should open a PHP tage like this: <code>&lt;?php  ?&gt;</code>
+              </li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                I've also added more specific guidelines about the in-class assignment (which is due on 1.27.16) if you haven't finished it or are confused about anything
+              </li>
+            </ul>
+            <ul class="info-bubble last-row">
               <li class="info-date">1.31.16</li>
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
@@ -449,7 +490,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 centered">
-            <h1>Daily Syllabus</h1>
+            <h1>Weekly Syllabus</h1>
             <p class="med">Class Activities and Goals</p>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
@@ -594,6 +635,37 @@
               </li>
             </ul>
           </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Lecture 4</p>
+            <ul class="syl-list">
+              <li class="syl-title">Concept</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-education"></span>
+              </li>
+              <li class="syl-item">
+                Quiz 1
+              </li>
+              <li class="syl-item">
+                Databases and MySQL
+              </li>
+            </ul>
+            <ul class="syl-list last-row">
+              <li class="syl-title">References</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-file"></span>
+              </li>
+              <li class="syl-item">
+                Handouts
+              </li>
+              <li class="syl-item">
+                Notes
+              </li>
+              <li class="syl-item">
+                Sebesta: Ch 13
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -683,6 +755,84 @@
               </li>
             </ul>
           </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 4</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: Write a script and run it using your Web Server, according to the following specifications:
+              </li>
+              <li>
+                A user logs into the site through the login.php script. This script initially checks the $_SESSION["error"] variable. If it exists, it prints out the error. It then shows a form that prompts the user for a name and password. Upon submission, the script requests the process.php script.
+              </li>
+              <li>
+                The process.php script will extract the POST variables for name and password and compare them with entries in a file called "users.txt". The "users.txt" file will be formatted as "username:password". There will be one entry per line.
+              </li>
+              <li>
+                If the user and password are found, the process.php script should set $_SESSION variables storing the user's name and that he/she has successfully logged in, then redirect to script home.php
+              </li>
+              <li>
+                If the user is not found, the process.php script should set the $_SESSION["error"] variable to the string "Your id or password is incorrect. Please try again". It should then redirect to the login.php script.
+              </li>
+              <li>
+                The home.php script should initially test a $_SESSION variable to see if the user has logged in.
+              </li>
+              <li>
+                If the $_SESSION variable is not set, set $_SESSION["error"] to "You have not logged in. Please log in first" and then redirect to login.php.
+              </li>
+              <li>
+                Text to be used in display is just a suggestion. You can word it however you like.
+              </li>
+              <li>
+                If the $_SESSION variable is set, extract the user's name and simply show a page welcoming the user to your site
+              </li>
+              <li>
+                Dont' forget to add some styling to the user facing portions of the exercise. As usual, don't go overboard, just make it look a little better.
+              </li>
+              <li>
+                Create a .zip file with your files and email them to me. The .zip file should be named [name]_exercise4.zip.
+              </li>
+              <li>
+                Feel free to use class example files as a reference, but do not reuse any of the code in the way it appears in those files.
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 5</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: Demonstrate that your MySQL access is established on your XAMPP servers by implementing two scripts: (naming and verbiage can be customized if you like)
+              </li>
+              <li>
+                The first script will create a new table in your DB called "People" with two columns (both text) called LName and FName
+              </li>
+              <li>
+                The second script will do the following:
+              </li>
+              <li>
+                Initially it shows a form that asks the user for their first and last names (separate fields)
+              </li>
+              <li>
+                If both names match an entry already in the People table, it should tell the user that they are already entered
+              </li>
+              <li>
+                Otherwise, it should add the user's names in a new entry in the table
+              </li>
+              <li>
+                Regardless of whether the user was previously in the table or not, your script should show all of the entries in the table to the user, and should show the form again (so another name can be entered)
+              </li>
+              <li>
+                Be sure to demonstrate the functionality as it should be to the instructor. Also, as always, make sure to add some CSS to the user facing portions.
+              </li>
+              <li>
+                Create a .zip file with your files and email them to me. The .zip file should be named [name]_exercise5.zip.
+              </li>
+              <li>
+                Feel free to use class example files as a reference, but do not reuse any of the code in the way it appears in those files.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -706,6 +856,12 @@
               </li>
               <li>
                 <a href="/deliverables/slides/BowytzLect3.pdf">Lecture 3 (follow)</a> | <a href="/deliverables/slides/BowytzLect3.zip">Lecture 3 (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/BowytzLect4.pdf">Lecture 4 (follow)</a> | <a href="/deliverables/slides/BowytzLect4.zip">Lecture 4 (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/BowytzLect5.pdf">Lecture 5 (follow)</a> | <a href="/deliverables/slides/BowytzLect5.zip">Lecture 5 (get)</a>
               </li>
             </ul>
           </div>
@@ -749,7 +905,11 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Quiz 1 Materials</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                In order to successfully take the first quiz, I am happy to inform you, as I have in class, that as long as you have paid attention and reviewed all materials I have a feeling you are going to do just fine.
+              </li>
+            </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
@@ -1025,12 +1185,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 centered">
-            <h1>Programming Projects</h1>
-            <p class="med">In Depth Project Info</p>
+            <h1>Programming Project</h1>
+            <p class="med">Class Project: Promotional Website</p>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Assignments</p>
+            <p class="uc red-txt bold">Requirements</p>
             <p>TBA</p>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>

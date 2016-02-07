@@ -1,4 +1,4 @@
-CREATE DATABASE Wacky;
-GRANT ALL on Wacky.* to Wacky@localhost IDENTIFIED by 'wacky-man';
-CREATE DATABASE Zany;
-GRANT ALL on Zany.* to Zany@localhost IDENTIFIED by 'zany-man';
+CREATE DATABASE ComicBooks;
+GRANT ALL on ComicBooks.* to bowytz@localhost IDENTIFIED by 'bowytz';
+CREATE DATABASE Collectibles;
+GRANT ALL on Collectibles.* to bowytz@localhost IDENTIFIED by 'bowytz';
