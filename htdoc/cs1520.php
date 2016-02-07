@@ -849,13 +849,13 @@
             <p class="uc red-txt bold">Lecture Slides</p>
             <ul>
               <li>
-                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1 (follow)</a> | <a href="/deliverables/slides/BowytzLect1.zip">Lecture 1 (get)</a>
+                <a href="/deliverables/slides/BowytzLect1.pdf">Lecture 1 (follow)</a> | <a href="/deliverables/slides/BowytzLect1.pdf" download>Lecture 1 (get)</a>
               </li>
               <li>
-                <a href="/deliverables/slides/BowytzLect2.pdf">Lecture 2 (follow)</a> | <a href="/deliverables/slides/BowytzLect2.zip">Lecture 2 (get)</a>
+                <a href="/deliverables/slides/BowytzLect2.pdf">Lecture 2 (follow)</a> | <a href="/deliverables/slides/BowytzLect2.pdf" download>Lecture 2 (get)</a>
               </li>
               <li>
-                <a href="/deliverables/slides/BowytzLect3.pdf">Lecture 3 (follow)</a> | <a href="/deliverables/slides/BowytzLect3.zip">Lecture 3 (get)</a>
+                <a href="/deliverables/slides/BowytzLect3.pdf">Lecture 3 (follow)</a> | <a href="/deliverables/slides/BowytzLect3.pdf" download>Lecture 3 (get)</a>
               </li>
               <li>
                 <a href="/deliverables/slides/BowytzLect4.pdf">Lecture 4 (follow)</a> | <a href="/deliverables/slides/BowytzLect4.zip">Lecture 4 (get)</a>
