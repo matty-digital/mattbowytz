@@ -345,12 +345,13 @@
             <p class="uc red-txt bold">Contact</p>
             <span class="glyphicon glyphicon-envelope"></span>
             <a href="mailto:jlee@cs.pitt.edu">jlee@cs.pitt.edu</a>
+            <a href="http://cs.pitt.edu/~jlee/teaching/cs1520" target="_blank">TA Class Site</a>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Office Hours 5501</p>
             <p>Tuesday 1:00pm - 5:00pm</p>
-            <p>Thursday 10:00am - 12:00pm</p>
+            <p>Friday 10:00am - 12:00pm</p>
           </div>
         </div>
         <div class="row">
