@@ -383,6 +383,22 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
+            ul class="info-bubble last-row">
+              <li class="info-date">2.24.16</li>
+              <li class="info">
+                <span class="glyphicon glyphicon-ok-circle"></span>
+                Added some concrete details about the midterm exam                
+              </li>
+              <li class="info">
+                Added all JS slides to date
+              </li>
+              <li class="info">
+                Added some DB example files. There are all kinds of different ways of doing things in there, but they will serve as a good reference
+              </li>
+              <li>
+                Also added the zip file for the template that was used to create this site, in the event you would like to use it with your project
+              </li>
+            </ul>
             <ul class="info-bubble last-row">
               <li class="info-date">2.8.16</li>
               <li class="info">
@@ -648,7 +664,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Lecture 4</p>
+            <p class="uc red-txt bold">Lecture 5</p>
             <ul class="syl-list">
               <li class="syl-title">Concept</li>
               <li class="centered b-ten">
@@ -674,6 +690,31 @@
               </li>
               <li class="syl-item">
                 Sebesta: Ch 13
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Lecture 5</p>
+            <ul class="syl-list">
+              <li class="syl-title">Concept</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-education"></span>
+              </li>
+              <li class="syl-item">
+                Intro to JavaScript
+              </li>
+            </ul>
+            <ul class="syl-list last-row">
+              <li class="syl-title">References</li>
+              <li class="centered b-ten">
+                <span class="glyphicon glyphicon-file"></span>
+              </li>
+              <li class="syl-item">
+                Notes
+              </li>
+              <li class="syl-item">
+                Sebesta: Ch 4
               </li>
             </ul>
           </div>
@@ -906,7 +947,14 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Javascript Slides</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                <a href="/deliverables/slides/JSLect.pdf">JS Lecture 1 (follow)</a> | <a href="/deliverables/slides/JSLect.zip">JS Lecture 1 (get)</a>
+              </li>
+              <li>
+                <a href="/deliverables/slides/Chapter4.pdf">Text Chapter 4 - JS (follow)</a> | <a href="/deliverables/slides/Chapter4.zip">Text Chapter 4 - JS (get)</a>
+              </li>
+            </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
@@ -930,7 +978,23 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Exam 1 Materials</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                After our review in class, I think everyone should know what they need to study for the midterm exam. But, if you want a reminder:
+              </li>
+              <li>
+                Chapters 2, 3, 9 and 13 (and associated slides), Lecture slides and class notes. You will find that some questions will be taken from lectures that aren't on the slides.
+              </li>
+              <li>
+                Look for more PHP topics (OOP, etc), databases, MySQL, HTML, CSS
+              </li>
+              <li>
+                There will be true/false, fill in the blank, sort answer and programming. The programming parts will be smaller in scale to the one on the quiz and will be comfortably hand written or emailed. NOTE: I will not accept any email submission that is timestamped after the class period has ended.
+              </li>
+              <li>
+                You will be well equipped if you review the above mentioned materials and have paid attention in class.
+              </li>
+            </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered last-row">
@@ -1168,9 +1232,27 @@
                       <a href="/deliverables/oop/oop.zip">oop.zip (get)</a>
                     </li>
                   </ul>
+                  <ul class="col-list">
+                    <li class="info uc red-txt bold">DB</li>
+                    <li class="uc bold">these files are for example use, pay no mind to the formatting, everything should work though</li>
+                    <li>
+                      There are a bunch of files for this topic, just get them all!
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon-cloud-download"></span>
+                      <a href="/deliverables/db/db.zip">db.zip (get)</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Class Site Template</p>
+            <p class="uc bold">
+              Some of you have expressed interest in using the same template as this class site, here it is
+            </p>
+            <a href="/deliverables/startbootstrap-scrolling-nav-1.0.4.zip">startbootstrap-scrolling-nav-1.0.4.zip (get)</a>
           </div>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">CSS</p>
