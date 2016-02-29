@@ -383,7 +383,7 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Class Announcements and Info</p>
-            ul class="info-bubble last-row">
+            <ul class="info-bubble last-row">
               <li class="info-date">2.24.16</li>
               <li class="info">
                 <span class="glyphicon glyphicon-ok-circle"></span>
