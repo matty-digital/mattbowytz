@@ -885,10 +885,184 @@
               </li>
             </ul>
           </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 5</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: Write a PHP / Javascript script that does the following:
+              </li>
+              <li>
+                NOTE: you may use jQuery if you care comfortable doing so, otherwise, 'vanilla' javascript will do just fine
+              </li>
+              <li>
+                Shows the user a form with a single text field requesting a search for a computer science course.
+              </li>
+              <li>
+                The course must be formatted as follows: CSXYYY
+                <ul>
+                  <li>
+                    where C is an either upper or lower case 'C' character
+                  </li>
+                  <li>
+                    where S is an either upper or lower case 'S' character
+                  </li>
+                  <li>
+                    where X is either a 0, 1, 2 or 3
+                  </li>
+                  <li>
+                    where YYY are digits between 0 and 9
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Before the form is submitted, a Javascript function should be called to verify the data entered in the text field. If the data is formatted correctly, the submission should go through. Otherwise, an alert showing the error should be generated, the submission should be rejected and the focus should revert back to the text field
+              </li>
+              <li>
+                If the field is valid, the form should be submitted to the same script that generated it. This script should respond that the submission was accepted, and it should produce the same form again so that the user can try another course
+              </li>
+              <li>
+                I will be testing by looking for both scenarios of a correct or incorrect scenario
+              </li>
+              <li>
+                Submissions can be via zip file with the same format as the other assignments
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 5</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: toggle file data using AJAX. This should be written as a PHP script
+              </li>
+              <li>
+                Initially your script will display a single button, saying "Toggle Data". However, the HTML on your page will also include an empty <code>div</code> tag identified by an id
+              </li>
+              <li>
+                A click on the button will first check to see if the data has already been downloaded from the server. If not, it will download it using an AJAX call. The response to the call will use DOM to add the result as a text node within the div. The script on the server will send the contents of a file as a single string. In your call you should specify the file name "file1.txt". See: getData.txt 
+              </li>
+              <li>
+                If the data has already been downloaded then it should be stored / maintained on the client. In other words, the first click of the button should cause an AJAX call to getData.php but successive clicks will not use AJAX, since the data will already be stored in the client web tree
+              </li>
+              <li>
+                A click on the button will first check to see if the data has already been downloaded from the server. If not, it will download it using an AJAX call. The response to the call will use DOM to add the result as a text node within the div. The script on the server will send the contents of a file as a single string. In your call you should specify the file name "file1.txt".
+              </li>
+              <li>
+                However, successive clicks of the button will toggle the visibility of the data, making it disappear and then reappear on the screen. This can be done using DOM and the "style" value with Javascript
+              </li>
+              <li>
+                Submissions can be via zip file with the same format as the other assignments
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 5</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: toggle file data using AJAX. This should be written as a PHP script
+              </li>
+              <li>
+                 Initially show an .html page that has a single button that when clicked will display a quiz to the viewer
+              </li>
+              <li>
+                When the button is clicked, your script should request via AJAX / GET, the following XML document: <a href="/deliverables/ajax/data.xml">here</a>.  This document contains a number of quiz questions in XML format.  Look at the file to see the tags and nesting so that you can parse it correctly
+              </li>
+              <li>
+                Once returned to your script via your XMLHttpRequest object, the XML document should be parsed and displayed as a sequence of questions with answers shown as options in an html select
+              </li>
+              <li>
+                When the user selects either the right or wrong answer, a block of text should be displayed to let them know
+              </li>
+              <li>
+                Keep track of the users score, as it can be dynamically updated without refreshing the page
+              </li>
+              <li>
+                NOTE: there is no server funcitonality here, if you refresh the page, it will go back to it's original state
+              </li>
+              <li>
+                You could use Javascript to set a cookie as well, if you were so inclined
+              </li>
+              <li>
+                Submissions can be via zip file with the same format as the other assignments
+              </li>
+            </ul>
+          </div>
+          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+          <div class="col-lg-12 centered">
+            <p class="uc red-txt bold">Exercise 5</p>
+            <ul class="ex-list">
+              <li class="requirements">
+                Requirements: (read below) - NOTE: the links to files are not downloads and the php will try to execute, so right click on it and grab it
+              </li>
+              <li>
+                Start with an empty table and a button on the page
+              </li>
+              <li>
+                Each time the user clicks the button, an AJAX request for a word is made to the script <a href="/deliverables/ajax/getWords.php">getWords.php</a> (not a download).  This script will request and return a random word from a database in XML format.  In order for this script to work, some other files are required
+                <ol>
+                  <li>
+                    <a href="/deliverables/ajax/setWords.php">setWords.php</a> – this is a script to initialize the database    
+                  </li>
+                  <li>
+                    <a href="/deliverables/ajax/testwords.txt">testwords.txt</a> – this is a file of words used by the setWords.php script             
+                  </li>
+                  <li>
+                    <a href="/deloverables/ajax/wordStyle.css">wordStyle.css</a> – simple style sheet to format the words (do us both a favor and make this look better)
+                  </li>
+                </ol>
+              </li>
+              <li>
+                When the word is received back, its XML is parsed and processed in the following way:
+                <ul>
+                  <li>
+                    If the word has not yet been seen, add it to an array of words / counts and also add it and its count to the table
+                  </li>
+                  <li>
+                    If the word has already been seen, increment its count in the array and also in the table
+                  </li>
+                </ul>
+              </li>
+              <li>
+                You may use plain Javascript or jQuery
+              </li>
+              <li>
+                Continue this process indefinitely
+              </li>
+              <li>
+                Here are some hints if you get caught up:
+                <ul>
+                  <li>
+                    Attach a click handler to the button that will fire a function called getWord() or something like that
+                  </li>
+                  <li>
+                    getWord() will make an ajax request to getWords.php, with a function that processes the word in the following way:
+                    <ul>
+                      <li>
+                        It extracts the word from the XML result data
+                      </li>
+                      <li>
+                        It checks to see if the word is already in an array of words (stored in a Javascript variable)
+                      </li>
+                      <li>
+                        If present, it increments the count for the word in the HTML table
+                      </li>
+                      <li>
+                        If not present, it appends the word to the HTML table and sets its count to 1
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Submissions can be via zip file with the same format as the other assignments
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-
     <section id="materials" class="materials content-section">
       <div class="container">
         <div class="row">

@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, sans-serif; 
+  font-size: 14px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Verdana",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: DarkBlue;
+}
+
+th {
+  padding: 4px 8px;
+  color: Indigo;
+}
+
+td {
+  padding: 4px 8px;
+  font-weight: normal;
+  font-size: 13px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.title {
+  font-family: Helvetica, Arial ,sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: MidnightBlue;
+  vertical-align: middle;
+  padding-top: 2px;
+}
+
+.thetable {
+  vertical-align: middle;
+  border-collapse: collapse;
+  border-width: 2px;
+  background: LightSteelBlue;
+  margin: 0 auto;
+}

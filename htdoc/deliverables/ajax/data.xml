@@ -1,0 +1,27 @@
+<quiz-problems>
+	<problem>
+		<question>
+			How many licks does it take to get to the Tootsie Roll center of a Tootsie Pop?
+		</question>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+		<answer>100</answer>
+		<correct>3</correct>
+	</problem>
+	<problem>
+		<question>What does JSON stand for?</question>
+		<answer>Javascript Object Notation</answer>
+		<answer>Javascript's Obviously Nuts</answer>
+		<answer>Javascript Optional Notation</answer>
+		<correct>Javascript Object Notation</correct>
+	</problem>
+	<problem>
+		<question>Which of these people are rappers?</question>
+		<answer>Big Bird</answer>
+		<answer>Optimus Prime</answer>
+		<answer>the RZA</answer>
+		<answer>Bazooka Joe</answer>
+		<correct>the RZA</correct>
+	</problem>
+</quiz-problems>
