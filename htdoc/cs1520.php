@@ -887,7 +887,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Exercise 5</p>
+            <p class="uc red-txt bold">Exercise 6</p>
             <ul class="ex-list">
               <li class="requirements">
                 Requirements: Write a PHP / Javascript script that does the following:
@@ -931,7 +931,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Exercise 5</p>
+            <p class="uc red-txt bold">Exercise 7</p>
             <ul class="ex-list">
               <li class="requirements">
                 Requirements: toggle file data using AJAX. This should be written as a PHP script
@@ -958,7 +958,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Exercise 5</p>
+            <p class="uc red-txt bold">Exercise 8</p>
             <ul class="ex-list">
               <li class="requirements">
                 Requirements: toggle file data using AJAX. This should be written as a PHP script
@@ -991,7 +991,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Exercise 5</p>
+            <p class="uc red-txt bold">Exercise 9</p>
             <ul class="ex-list">
               <li class="requirements">
                 Requirements: (read below) - NOTE: the links to files are not downloads and the php will try to execute, so right click on it and grab it
