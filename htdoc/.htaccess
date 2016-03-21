@@ -1,1 +1,8 @@
 DirectoryIndex home.php
+
+# Turn on the rewrite engine
+Options +FollowSymlinks
+RewriteEngine on
+
+# Request routing
+RewriteRule ^([a-zA-Z_-]*)\.(html|json|xml)?$	simple_api.php?method=$1&format=$2 [nc,qsa]
