@@ -19,7 +19,7 @@
 		header('Access-Control-Allow-Origin: *');
 		header('X-Class-Id: cs1520');
 		header('X-Taught-By: matt bowytz');
-		header('X-Rap-Name: matty-digital');
+		header('X-Rap-Name: matty-digital - now make a request to this name!');
 
 		if( strcasecmp($format,'json') == 0 ){
 
@@ -134,6 +134,10 @@
 		10 => array(
 			'HTTP Response' => 200,
 			'Message' => 'This is the programming data, you can request "all" or "interests" as well.'
+		),
+		11 => array(
+			'HTTP Response' => 200,
+			'Message' => 'You found the response headers! Now you know my rap name!'
 		)
 	);
 
@@ -216,6 +220,13 @@
 		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
 		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
 		$response['data']   = null;
+	}
+
+	if ($matchFile && $ifData && strcasecmp($_GET['data'],'matty-digital') == 0) {
+		$response['code']   = 11;
+		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
+		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
+		$response['data']   = 'You deserve a trophy for this. Unfortunately, it\'s going to have ot be one of those "verbal trophies", I mean, I\'m rich and famous just like you, but I\'m certainly not "giving out trophies all willie nillie" rich. Who do you think I am? Bruce Wayne?'; 
 	}
 
 	if ($matchFile && $ifData && strcasecmp($_GET['data'],'all') == 0) {

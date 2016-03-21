@@ -1,0 +1,98 @@
+/*
+  Don't forget to style the results from the search!
+  And anything elese you add to the application, for that matter.
+*/
+
+.flexsearch-wrapper {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+}
+
+.flexsearch-form {
+  overflow: hidden;
+  position: relative;
+}
+
+.flexsearch-input-wrapper {
+  padding: 0 66px 0 0;
+  overflow: hidden;
+}
+
+.flexsearch-input {
+  width: 100%;
+}
+
+.flexsearch {
+  padding: 10px;
+}
+
+.flexsearch-input {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 60px;
+  width: 100%;
+  padding: 0 46px 0 10px;
+  border-color: #888;
+  border-radius: 35px;
+  border-style: solid;
+  border-width: 5px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.flexsearch-submit {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  margin-right: 5px;
+  background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch-input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch-input:focus.flexsearch-submit {
+  color: #333;
+}
+
+.flexsearch-submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+input:-moz-placeholder {
+  color: #888;
+}
+
+.h1 {
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+}
