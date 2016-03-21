@@ -33,14 +33,29 @@
 
 			header('Content-Type: application/xml; charset=utf-8');
 
-			$xml_response = '<?xml version="1.0" encoding="UTF-8"?>'."\n".
-				'<response>'."\n".
-				"\t".'<code>'.$api_response['code'].'</code>'."\n".
-				"\t".'<data>'.$api_response['data'].'</data>'."\n".
-				'</response>';
+			
+			function array_to_xml( $data, &$xml_data ) {
+		    foreach( $data as $key => $value ) {
+	        if( is_array($value) ) {
+            if( is_numeric($key) ){
+              $key = 'item'.$key;
+            }
+            $subnode = $xml_data->addChild($key);
+            array_to_xml($value, $subnode);
+	        } else {
+	          $xml_data->addChild("item",htmlspecialchars("$value"));
+	        }
+		    }
+			}
 
-			echo $xml_response;
+			$data = $api_response['data'];
 
+			$xml_data = new SimpleXMLElement('<?xml version="1.0"?><data></data>');
+
+			array_to_xml($data, $xml_data);
+
+			echo $xml_data->asXML();
+			
 		}else{
 
 			header('Content-Type: text/html; charset=utf-8');
