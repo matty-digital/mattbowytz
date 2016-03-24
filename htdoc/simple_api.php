@@ -136,19 +136,19 @@
 		),
 		7 => array(
 			'HTTP Response' => 200,
-			'Message' => 'Please GET "data" with "all", "interests", or "programming"'
+			'Message' => 'You need to pass a query param to the url. ?data=all, ?data=interests or ?data=programming.'
 		),
 		8 => array(
 			'HTTP Response' => 200,
-			'Message' => 'This is all of the data, you can request "interests" or "programming" as well.'
+			'Message' => 'This is all of the data, you can request "?data=interests" or "?data=programming" as well.'
 		),
 		9 => array(
 			'HTTP Response' => 200,
-			'Message' => 'This is the interests data, you can request "all" or "programming" as well.'
+			'Message' => 'This is the interests data, you can request "?data=all" or "?data=programming" as well.'
 		),
 		10 => array(
 			'HTTP Response' => 200,
-			'Message' => 'This is the programming data, you can request "all" or "interests" as well.'
+			'Message' => 'This is the programming data, you can request "?data=all" or "?data=interests" as well.'
 		),
 		11 => array(
 			'HTTP Response' => 200,
