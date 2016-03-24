@@ -1123,17 +1123,35 @@
             <p class="uc red-txt bold">Javascript Slides</p>
             <ul>
               <li>
-                <a href="/deliverables/slides/JSLect.pdf">JS Lecture 1 (follow)</a> | <a href="/deliverables/slides/JSLect.zip">JS Lecture 1 (get)</a>
+                Instead of the usual following and downloading of our slides, here are all te js slides, in google docs and available for you to view.
               </li>
+              <ul>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/1omUo4JHUsxadjutaYrHeYespLVIi2X04XPWaowiFz0g/edit?usp=sharing" target="_blank">AJAX</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/1fHNzATw4N-eGbE1Py6gb163T67ARRHbrDrcqXCUL2gg/edit?usp=sharing" target="_blank">DOM Events</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/16AvU2mMz0C_e4EKoNzHL3fQx-_bhKOyW2pQL6lAl_r8/edit?usp=sharing" target="_blank">APIs</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/1e0PBL-v3qPvGgPmQKMuoC3znD0WNhsAdeXERereCf4c/edit?usp=sharing" target="_blank">JSON</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/17RNaiXw2hm2QjjqhV4CuP5uKWZq-Be0KZmorBpUhqW4/edit?usp=sharing" target="_blank">Client Storage</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/1AOGsc_beLhkeedjL5-Iroi2O-KzhQz_L3LIdn53RYcY/edit?usp=sharing" target="_blank">JS Lecture 1</a>
+                </li>
+                <li>
+                  <a href="https://docs.google.com/presentation/d/13Pgto16qVq5wFphx0pV1eSHD6krBR7e-vGrmCK_q6Gs/edit?usp=sharing" target="_blank">jQuery</a>
+                </li>
+              </ul>
               <li>
                 <a href="/deliverables/slides/Chapter4.pdf">Text Chapter 4 - JS (follow)</a> | <a href="/deliverables/slides/Chapter4.zip">Text Chapter 4 - JS (get)</a>
               </li>
             </ul>
-          </div>
-          <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-          <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">JQuery Slides</p>
-            <p>Coming Soon!</p>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
@@ -1147,7 +1165,11 @@
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Quiz 2 Materials</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                Expect the second quiz to touch on the basics of javascript and jQuery with a little more HTML and CSS. Everything will be taken from the notes, slides and lectures.
+              </li>
+            </ul>
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
