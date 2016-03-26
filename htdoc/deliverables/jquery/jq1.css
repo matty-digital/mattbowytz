@@ -1,0 +1,61 @@
+body {
+  font-family: Verdana, sans-serif; 
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: SlateGrey;
+}
+
+.tableClass{
+  vertical-align: middle;
+  border-collapse: collapse;
+  border-width: 2px;
+  background: LightSteelBlue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallTable{
+  font-size: 16px;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border-width: 2px;
+  background: LightSteelBlue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.otherClass{
+  vertical-align: middle;
+  border-collapse: collapse;
+  border-width: 2px;
+  background: DarkGrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.oddRow{
+  font-family: "Verdana", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: Ivory;
+  border-style: solid;
+  border-width: 2px;
+  background: MediumSlateBlue;
+}
+
+.evenRow{
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: Chocolate;
+  border-style: solid;
+  border-width: 2px;
+  background: LightGrey;
+}
+
+.center {
+  text-align: center;
+}

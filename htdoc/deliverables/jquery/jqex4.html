@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fourth JQuery Example</title>
+    <link rel="stylesheet" type="text/css" href="jq1.css">
+  </head>
+
+  <body>
+    <table id="theTable" class="tableClass">
+      <caption>Rank Your Summer Fun Things to Do</caption>
+      <tr>
+        <td>
+          <ul>
+            <li>Going to Kennywood</li>
+            <li>Going to Sandcastle</li>
+            <li>Biking on Rails to Trails</li>
+            <li>Hiking the Laurel Highlands</li>
+            <li>Rock Climbing</li>
+            <li>Concerts in the Park</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      // We will iterate through the unordered list using each as explained below.
+      $(document).on("ready", function() {
+        $("ul li").each(function(ind, el) {
+          var $self = $(this);
+          // Set its class to evenRow
+          $self.addClass("evenRow");
+
+          // Set the hover which actually does two events for each list item:
+          // mouseover and mouseout.  If you look at this in a debugger you will
+          // see that both events are attached to each list item.  All I am doing
+          // is changing the font class when the mouse is over the item, then back
+          // again when it leaves.
+          $self.on("hover", function() {
+            $self.removeClass("evenRow");
+            $self.addClass("oddRow");
+          }, function() {
+            $self.removeClass("oddRow");
+            $self.addClass("evenRow");
+          });
+
+          // Add a click event handler to remove the item from the unordered list
+          // and add it to an ordered list in a separate table data section.  
+          // Special cases:
+          // 1) If the second <td> does not yet exist, create it
+          // 2) If there are no <ul> list items remaining in the initial list,
+          //    remove it and the <td>
+          $self.on("click", function() {
+            var tdsize = $("table#theTable td").length;
+            
+            if (tdsize == 1) {
+              $("table#theTable tr").append("<td><ol></ol></td>");
+            }
+            $self.remove();
+            $("ol").append(el);
+            var oldsize = $("ul li").length;
+            
+            if (oldsize == 0) {
+              $("ul").remove();
+              $("table#theTable tr td:eq(0)").remove();
+            }
+          });
+
+        });
+      });    
+    </script>
+  </body>
+</html>

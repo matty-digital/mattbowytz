@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fourth JQuery Example -- Using Local Data</title>
+    
+    <link rel="stylesheet" type="text/css" href="jq1.css">
+  </head>
+
+  <body>
+    <table id="theTable" class="tableClass">
+      <caption>Rank Your Fall Fun Things to Do</caption>
+        <tr>
+          <td>
+            <ul>
+              <li>Going to a Pitt Football Game</li>
+              <li>Jumping in a Pile of Leaves</li>
+              <li>Biking on Rails to Trails</li>
+              <li>Hiking the Laurel Highlands</li>
+              <li>Rock Climbing</li>
+              <li>Eating Thanksgiving Dinner</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <input type="button" id="oldchoices" value="See Previous Choices"/>
+      <div id='newDiv'></div>
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script type="text/javascript">
+
+        // The building of the ordered list here is the same as in jqex4.html.  However, now
+        // the current ordering is saved in localStorage and the user is given the option to
+        // view previous results.  Unlike jqex4-cookie, a user can do the rankings any number
+        // of times.  Each new time is saved and can be retrieved later on.
+        $(document).on("ready", function() {
+          $("ul li").each(function(ind, el) {
+            $self = $(this);
+            $self.addClass("evenRow");
+            $self.on("hover", function() {
+              $self.removeClass("evenRow");
+              $self.addClass("oddRow"); 
+            }, function() {
+              $self.removeClass("oddRow");
+              $self.addClass("evenRow");
+            });
+
+            $self.on("click", function() {
+              var tdsize = $("table#theTable td").length;
+            
+              if (tdsize == 1) {
+                $("table#theTable tr").append("<td><ol></ol></td>");
+              }
+            
+              $self.remove();
+              $("ol").append(el);
+
+              var oldsize = $("ul li").length;
+              if (oldsize == 0) {
+                $("ul").remove();
+                $("table#theTable tr td:eq(0)").remove();
+                // We add a function call after the list is complete.  This function will
+                // save the current list into localStorage indexed on the current date.
+                // See more comments below.
+                saveState();
+              }
+            });
+
+          });
+
+          // Assign a click function to retrieve and display a list of the previous dates in which
+          // lists were generated.
+          $("#oldchoices").on("click", function() {
+          var oldLists = localStorage.getItem("oldLists");
+          if (oldLists == null) {
+            alert("No Previous Results");
+          } else {
+            // Make a new div and replace the old div with this one.
+            var newDiv = "<div id='newDiv'></div>";
+            $("body div#newDiv").replaceWith(newDiv);
+
+            // Retrieve and parse the oldLists variable.
+            oldLists = JSON.parse(oldLists);
+
+            // Get the keys and sort them
+            var thekeys = Object.keys(oldLists);
+            thekeys.sort();
+
+            // Make a table and append it to the div.  Then make a row for each key (i.e. each date)
+            // and append the row to the table.
+            var tempT = "<table id='ttable' class='smallTable'><caption>Choose a Previous Result" +
+            "</caption></table>";
+            $("#newDiv").append(tempT);
+
+            for (var i = 0; i < thekeys.length; i++) {   
+              var newrow = "<tr class='evenRow'><td>" + thekeys[i] + "</td></tr>";
+              $("#ttable").append(newrow);
+            }
+
+            // Iterate through the rows, assigning a callback function to each row on click.  The
+            // callback will generate the list corresponding to that key (date) and put it into a
+            // new table.
+            $("#ttable tr").each(function(ind, el) {
+              $(this).click(function() {
+                var thedata = oldLists[thekeys[ind]];
+                var newT = "<table id='ttable' class='smallTable'><caption>Results from " + 
+                thekeys[ind] + "</caption></table>";
+                $("#ttable").replaceWith(newT);
+                var theRows = oldLists[thekeys[ind]];
+
+                for (var j = 0; j < theRows.length; j++) {
+                  var rank = j+1;
+                  var newrow = "<tr class='evenRow'><td>" + rank + "</td><td>" + 
+                  theRows[j] + "</td></tr>";
+                  $("#ttable").append(newrow);
+                }
+              });
+            });
+          }
+        });
+      });
+
+      // Retrieve the oldList from localStorage, and parse it into a Javascript object.  Then make
+      // a new key of the current date and save the current list into an array at that key.  Finally,
+      // stringify the oldList and put it back into localStorage.  Compare this to the
+      // saveResults() function in jqex4-cookie.html.  Note that in that case we are saving
+      // only the current result into a cookie, whereas here we are ADDING the current
+      // result to a set of results that we keep in localStorage.
+      function saveState() {
+        var oldLists = localStorage.getItem("oldLists");
+      
+        if (oldLists != null) {
+          oldLists = JSON.parse(oldLists);
+        } else {
+          oldLists = {};
+          var key = (new Date()).toString();
+          var value = [];
+        }        
+
+        $("ol li").each(function (ind, el) {
+          value[ind] = $(el).text();
+        });
+        oldLists[key] = value;
+        var strLists = JSON.stringify(oldLists);
+        localStorage.setItem("oldLists", strLists);
+      }
+    </script>
+  </body>
+</html>

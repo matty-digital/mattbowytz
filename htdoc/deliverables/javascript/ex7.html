@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seventh JavaScript Example</title>
+  </head>
+  
+  <body>
+    <script type = "text/javascript">
+      var s        = "a man, a plan, a canal: panama";
+      document.write(s, "<br/>");
+      var loc      = s.search(/plan/);
+      document.write("plan is found at ", loc, "<br/>");
+      var matches  = s.match(/\w+/g);
+      document.write("words from match: ", matches, "<br/>");
+      var matches2 = s.split(/\W+/);
+      document.write("words from split: " , matches2, "<br/>");
+      var t        = s.replace(/\W+/g, "-");  // Note:Text incorrectly shows replace
+      document.write("Pre: ", s, "<br/>Post: ", t); //       as a mutator
+    </script>
+  </body>
+</html>

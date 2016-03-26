@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Second JavaScript Example</title>
+
+    <link rel="stylesheet" type="text/css" href="CDstyle.css">
+  </head>
+
+  <body>
+    <pre>
+      <script type = "text/javascript">
+        var s, x, y1, y2, z1, z2, z3, z4;
+        x = 12;
+        y1 = "5";
+        y2 = "bogus";
+        z1 = x + y1;
+        z2 = x + parseInt(y1);
+        z3 = x * y1;
+        z4 = x * y2;
+        document.writeln(typeof(z4));
+        document.writeln(x, "+", y1, "=", z1, "<br/>");
+        document.writeln(x, "+", y1, "=", z2, "<br/>");
+        document.writeln(x, "*", y1, "=", z3, "<br/>");
+        document.writeln(x, "*", y2, "=", z4, "<br/>");
+
+        var wacky = z4 + " ha hah";
+        document.writeln("wacky = " + wacky, " and its type is " + typeof(wacky));
+        document.writeln("s = ", s, " and its type is " , typeof(s), "<br/>");
+        s = prompt("Enter a string",""); document.writeln(s, "<br/>");
+        document.writeln("s = ", s, " and its type is " , typeof(s), "<br/>");
+        var t = s.toUpperCase(); document.writeln(t, "<br/>");
+        var u = s.length; document.writeln(u, "<br/>");
+        var v = s.substring(6,11); document.writeln(v, "<br/>");
+        document.write(typeof(s), "<br/>");
+        s = 345;
+        document.write(typeof(s), "<br/>");
+        var test = 19; var xx = 7;
+        var ans = (int) (19 / 7);
+        document.write(ans, "<br/>");
+      </script>
+    </pre>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JQuery load Function</title>
+
+    <link rel="stylesheet" type="text/css" href="jq1.css"/>
+  </head>
+
+  <body>    
+    <div id="div1">
+    </div>
+
+    <div id="div2" class="oddRow">
+      <h2>What would you like to see:</h2>
+      <a href="doc1.html">Document 1</a>
+      <br/>
+      <a href="doc2.html">Document 2</a>
+      <br/>
+      <a href="http://www.cs.pitt.edu/">Document 3</a>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      // Demonstration of JQuery load function to show some pages nested
+      // within another site.
+
+      $(document).on("ready", function() {
+
+        // Iterate through the <a> tags and prevent the default behavior.
+        // Also grab the url from the href attribute and use the load function
+        // to put the result into the other div.  If you look this is a bit
+        // clunky with regard to the style.  Similar (but more complex) code
+        // can be used to capture and convert a form submit into an ajax call.
+        $("a").on("click", function(ev) {
+          var el = $(this);
+          loadify(el, ev);
+        });
+      });
+         
+      // This will take the <a> tags in code that is loaded to also divert to
+      // the load call.
+      function loadify(el, ev) {
+        ev.preventDefault();
+        var url = $(el).attr("href");
+        $("#div1").load(url, function() {
+          $("a").on("click", function(ev2) {
+            var el2 = $(this);
+            loadify(el2, ev2);
+          });
+        });
+      }
+    </script>
+  </body>
+
+</html>

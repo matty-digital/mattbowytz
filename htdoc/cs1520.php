@@ -1451,16 +1451,20 @@
             <a href="/deliverables/startbootstrap-scrolling-nav-1.0.4.zip">startbootstrap-scrolling-nav-1.0.4.zip (get)</a>
           </div>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">CSS</p>
-            <p>Coming Soon!</p>
-          </div>
-          <div class="col-lg-12 centered">
             <p class="uc red-txt bold">Javascript</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                <a href="/deliverables/javascript.zip">Javascript Sample Files</a>
+              </li>
+            </ul>
           </div>
           <div class="col-lg-12 centered">
             <p class="uc red-txt bold">JQuery</p>
-            <p>Coming Soon!</p>
+            <ul>
+              <li>
+                <a href="/deliverables/jquery.zip">jQuery Sample Files</a>
+              </li>
+            </ul>
           </div>
           <div class="col-lg-12 centered last-row">
             <p class="uc red-txt bold">XML</p>

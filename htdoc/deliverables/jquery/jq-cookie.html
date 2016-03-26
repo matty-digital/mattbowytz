@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Cookies in JQuery</title>
+    
+    <link rel="stylesheet" type="text/css" href="jq1.css"/>
+  </head>
+
+  <body>
+    <input type='button' id='addcookie' value='Add New Cookie'/>
+    <input type='button' id='delcookie' value='Delete Cookie'</>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="jquery.cookie.js"></script>
+    <script type="text/javascript">
+
+      // Simple demo of creating and deleting cookies on the client side
+      // Note that we are using a JQuery plug-in to make this access easier.  JQuery
+      // plug-ins are simply aggregations of JQuery code that add yet another level
+      // of abstraction to our programming.  Obviously, the plug-in requires JQuery,
+      // so be sure to include JQuery before including the plug-in.
+
+      // For the plug-in source see: https://github.com/carhartl/jquery-cookie
+
+      // This simple script is setting a cookie with one button and then deleting it with
+      // another (note deletion is simply done by setting the "expires" attribute to -1).
+      // This particular cookie is the one used by previous handout usesession.php.  Try
+      // it to see how we can manipulate cookies that are utilized by the server on the
+      // client side.  Note that it is reasonable that a client should be able to access
+      // cookies since they are stored client-side.
+
+      $(document).on("ready", function() {
+
+        $("#addcookie").on("click", function() {
+          $.cookie('loc[name]', 'Herbert', { path: '/', domain: 'localhost', expires: 1 }); 
+          $.cookie('loc[street]', 'Herb Alley', { path: '/', domain: 'localhost', expires: 1 }); 
+          $.cookie('loc[city]', 'Herbopolis', { path: '/', domain: 'localhost', expires: 1 }); 
+          $.cookie('loc[state]', 'Herbevania', { path: '/', domain: 'localhost', expires: 1 });
+          $.cookie('loc[zip]', '12345', { path: '/', domain: 'localhost', expires: 1 }); 
+          alert('Cookie should be added');
+        });
+
+      $("#delcookie").on("click", function() {
+        $.cookie('loc[name]', 'Herbert', { path: '/', domain: 'locahost', expires: -1 }); 
+        $.cookie('loc[street]', 'Herb Alley', { path: '/', domain: 'localhost', expires: -1 }); 
+        $.cookie('loc[city]', 'Herbopolis', { path: '/', domain: 'localhost', expires: -1 }); 
+        $.cookie('loc[state]', 'Herbevania', { path: '/', domain: 'localhost', expires: -1 });
+        $.cookie('loc[zip]', '12345', { path: '/', domain: 'localhost', expires: -1 }); 
+        alert('Cookie should be deleted');
+      });
+
+    });
+
+    </script>
+  </body>
+  
+</html>

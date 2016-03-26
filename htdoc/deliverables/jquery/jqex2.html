@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Second JQuery Example</title>
+
+		<link rel="stylesheet" type="text/css" href="jq1.css">
+	</head>
+	
+	<body>
+		<table id="firstTable" class="tableClass" border="1">
+			<tr>
+				<td>This is row 0</td>
+			</tr>
+			<tr>
+				<td>This is row 1</td>
+			</tr>
+			<tr>
+				<td>This is row 2</td>
+			</tr>
+			<tr>
+				<td>This is row 3</td>
+			</tr>
+			<tr>
+				<td>This is row 4</td>
+			</tr>
+			<tr>
+				<td>This is row 5</td>
+			</tr>
+			<tr>
+				<td>This is row 6</td>
+			</tr>
+		</table>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			// Demonstration of Element Modification using JQuery
+			// See also jqex2b.html
+
+			// Initially the table just has simple text in each row.
+			// Using JQuery we select the table rows and use the each() function
+			// to apply a function to each row.  In the function we append the
+			// input button, with row index incorporated into the call.  The callback
+			// function is a separate function that toggles the class of the row.
+			$(document).on("ready", function() {
+				$("table#firstTable tr").each(function(ind, el) {
+				
+					// Note how we access the current element using this
+					var newE = "<input type='button' value='Toggle " + ind + "' ";
+					newE = newE + "onclick='process(" + ind + ")'/>";
+					$(this).append("<td>" + newE + "</td>");
+				});
+
+			});
+
+			// Select the current row using the index and the eq() selector and
+			// toggle its class.
+			function process(i) {
+				$("table#firstTable tr:eq(" + i + ")").toggleClass("evenRow");
+			}
+		</script>
+	</body>
+</html>

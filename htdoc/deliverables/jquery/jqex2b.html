@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Second JQuery Example (Version b)</title>
+
+		<link rel="stylesheet" type="text/css" href="jq1.css">
+	</head>
+
+	<body>
+		<table id="firstTable" class="tableClass" border="1">
+			<tr>
+				<td>This is row 0</td>
+			</tr>
+			<tr>
+				<td>This is row 1</td>
+			</tr>
+			<tr>
+				<td>This is row 2</td>
+			</tr>
+			<tr>
+				<td>This is row 3</td>
+			</tr>
+			<tr>
+				<td>This is row 4</td>
+			</tr>
+			<tr>
+				<td>This is row 5</td>
+			</tr>
+			<tr>
+				<td>This is row 6</td>
+			</tr>
+		</table>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			// Demonstration of Element Modification using JQuery
+			// See also jqex2.html
+
+			// In this version, we select and iterate in the same way.  However,
+			// now we add the button without a callback and then use the find() function
+			// to immediately select that button and the click() function to add the
+			// callback.  Note that here we do not have a separate function, just an
+			// anonymous embedded function.  Also, because we are still within the context
+			// of the each() iteration, the body of the function is very simple -- we do not
+			// even need to find the index of the button since we are currently within the
+			// row that we want to modify.  VERY COOL!	
+			$(document).on("ready", function() {
+				$("table#firstTable tr").each(function(ind, el) {
+					var $self = $(this);
+					var newE  = "<input type='button' value='Toggle " + ind + "'/>";
+
+					$self.append("<td>" + newE + "</td>");
+					$self.find("input").click(function() {
+						$(el).toggleClass("evenRow"); 
+					});
+				});   
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First JQuery Example</title>
+
+    <link rel="stylesheet" type="text/css" href="jq1.css">
+  </head>
+
+  <body>
+    <h2>The First JQuery Example</h2>
+    <h2>The Second Line of the First Example</h2>
+    <h2 id="Third">The Third Line is Here</h2>
+    
+    <br/>
+    
+    <table id="firstTable" class="tableClass" border="1">
+      <tr><td>This is row 0</td></tr>
+      <tr><td>This is row 1</td></tr>
+      <tr><td>This is row 2</td></tr>
+      <tr><td>This is row 3</td></tr>
+      <tr><td>This is row 4</td></tr>
+      <tr><td>This is row 5</td></tr>
+      <tr><td>This is row 6</td></tr>
+    </table>
+    
+    <table id="secondTable" class="otherClass" border="1">
+      <tr><td>Second table row 0</td></tr>
+      <tr><td>Second table row 1</td></tr>
+      <tr><td>Second table row 2</td></tr>
+      <tr><td>Second table row 3</td></tr>
+      <tr><td>Second table row 4</td></tr>
+      <tr><td>Second table row 5</td></tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      // Demonstration of selection using JQuery
+      
+      // The "ready" event occurs when the document is loaded and ready for use.
+      // This triggers a call to the ready function, in which we embed the JQuery
+      // that we want to execute.
+      $(document).on("ready", function() {
+        alert("JQuery is ready to go");
+          
+        // We can select items in our documents in MANY ways.  One way is by
+        // tag name.  If we update (ex: the css call below) the selection for a
+        // given tag, it will actually update ALL tags that match.  If we prefer
+        // to have only a single tag updated, we can do that too, in several
+        // different ways.
+        $("h2").css("color", "Olive");
+        
+        // Get first match and append to it
+        $("h2").first().append(" is Really Fun!");
+        
+        // Get matches with index > 0 and change font size
+        $("h2:gt(0)").css("font-size", "22px");
+        
+        // Get matches with index < 2 and set to be italic
+        $("h2:lt(2)").css("font-style", "italic");
+        
+        // Get match index 1 and prepend to it
+        $("h2:eq(1)").prepend("This Is ");
+        
+        // Get element by ID and change font weight
+        $("#Third").css("font-weight", "200");
+        
+        // Change all even rows to evenRow class and all odd rows
+        // to oddRow class (for all tables in the document).  Note
+        // that since this applies to all rows, the oddness or evenness
+        // of the rows is not reset at the beginning of each table
+        $("table tr:even").addClass("evenRow");
+        $("table tr:odd").addClass("oddRow");
+        
+        // The code below would make the even rows on the second
+        // table (starting only at that table) the evenRow style.
+        // Uncomment it to see the change.
+        
+        $("table#secondTable tr:even").removeClass("oddRow");
+        $("table#secondTable tr:even").addClass("evenRow");
+        $("table#secondTable tr:odd").removeClass("evenRow");
+        $("table#secondTable tr:odd").addClass("oddRow");
+      
+      });
+    </script>
+  </body>
+</html>

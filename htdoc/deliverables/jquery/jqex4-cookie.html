@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fourth JQuery Example -- Using a Cookie</title>
+    <link rel="stylesheet" type="text/css" href="jq1.css">
+  </head>
+
+  <body>
+    <table id="theTable" class="tableClass">
+      <caption>Rank Your Fall Fun Things to Do</caption>
+      <tr>
+        <td>
+          <ul>
+            <li>Going to a Pitt Football Game</li>
+            <li>Jumping in a Pile of Leaves</li>
+            <li>Biking on Rails to Trails</li>
+            <li>Hiking the Laurel Highlands</li>
+            <li>Rock Climbing</li>
+            <li>Eating Thanksgiving Dinner</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="jquery.cookie.js"></script>
+    <script type="text/javascript">
+
+      // This is the same as the Fourth JQuery example, except now a cookie is being
+      // used to prevent the user (on the same machine) from doing it more than one
+      // time.  If the user has done it before, we show the previous result.  The result
+      // is stored in the cookie as a JSON object.
+
+      $(document).on("ready", function() {
+        // Test for the cookie. If it exists, retrieve its result, decode it
+        // and replace the list in the table with an ordered list built from the
+        // cookie.
+        var result = $.cookie("JQEx4");
+        
+        if (result != null) {
+          alert("You already participated!  Your results are shown");
+          result = JSON.parse(result);
+          
+          var oList = "<ol></ol>";
+          $("#theTable td ul").replaceWith(oList);
+          
+          for (var i = 0; i < result.length; i++) {
+            $("#theTable td ol").append("<li>"+result[i]+"</li>");
+          }
+        } else {
+          // No cookie is present -- proceed with the site as done before.
+          $("ul li").each(function(ind, el) {
+            $self = $(this);
+            $self.addClass("evenRow");
+            $self.on("hover", function(){
+              $self.removeClass("evenRow");
+              $self.addClass("oddRow"); 
+            }, function() {
+              $self.removeClass("oddRow");
+              $self.addClass("evenRow"); 
+            });
+
+            $self.on("click", function() {
+              var tdsize = $("table#theTable td").length;
+              
+              if (tdsize == 1) {
+                $("table#theTable tr").append("<td><ol></ol></td>");
+              }
+              
+              $self.remove();
+              $("ol").append(el);
+              
+              var oldsize = $("ul li").length;
+
+              if (oldsize == 0) {
+                $("ul").remove();
+                $("table#theTable tr td:eq(0)").remove();
+                // When we are done building the list, save the results
+                // into a cookie.
+                saveResults();
+              }
+            });
+
+          });
+        }
+      });
+
+      // Make an array, put the list items into the array, stringify the array and
+      // store it in a cookie.
+      function saveResults() {
+        var data = [];
+        $("ol li").each(function(ind, el) {
+          data[ind] = $(el).text();
+        });
+
+        var strData = JSON.stringify(data);
+        $.cookie('JQEx4', strData, { expires: 30 });
+      }
+    </script>
+  </body>
+</html>

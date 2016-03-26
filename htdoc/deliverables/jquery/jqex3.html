@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Third JQuery Example</title>
+  
+    <link rel="stylesheet" type="text/css" href="jq1.css">
+  </head>
+
+  <body>
+    <p class="changes">
+      Here is some information in the document.  The font size of this text will change
+      automatically as the document size is increased and decreased.  Pretty cool!
+    </p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      // We access the document width and initially set the font size as one 50th
+      // of the document width.  We then use the resize() function of the window
+      // to update the font size based on the current document width.
+      $(document).on("ready", function() {
+        var wid   = $(document).width();
+        var fsize = wid/50;
+        $(".changes").css("font-size", fsize + "px");
+
+        $(window).on("resize", function() {
+          wid = $(document).width();
+          fsize = wid/50;
+          
+          $(".changes").css("font-size", fsize + "px");
+        });
+      });    
+    </script>
+  </body>
+</html>
