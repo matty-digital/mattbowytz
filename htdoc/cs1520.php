@@ -967,7 +967,7 @@
                  Initially show an .html page that has a single button that when clicked will display a quiz to the viewer
               </li>
               <li>
-                When the button is clicked, your script should request via AJAX / GET, the following XML document: <a href="/deliverables/ajax/data.xml">here</a>.  This document contains a number of quiz questions in XML format.  Look at the file to see the tags and nesting so that you can parse it correctly
+                When the button is clicked, your script should request via AJAX / GET, the following XML document: <a href="/deliverables/ajax.zip">(download here, it's in this folder and called data.xml)</a>.  This document contains a number of quiz questions in XML format.  Look at the file to see the tags and nesting so that you can parse it correctly
               </li>
               <li>
                 Once returned to your script via your XMLHttpRequest object, the XML document should be parsed and displayed as a sequence of questions with answers shown as options in an html select
@@ -994,22 +994,25 @@
             <p class="uc red-txt bold">Exercise 9</p>
             <ul class="ex-list">
               <li class="requirements">
-                Requirements: (read below) - NOTE: the links to files are not downloads and the php will try to execute, so right click on it and grab it
+                Requirements: (read below) - The fllowing link should let you download the zip file containing resources for exercises 8 and 9) - <a href="/deliverables/ajax.zip">FILES HERE</a>
+              </li>
+              <li class="requirements">
+                You may need to do some troubleshooting to get the db part to work properly.
               </li>
               <li>
                 Start with an empty table and a button on the page
               </li>
               <li>
-                Each time the user clicks the button, an AJAX request for a word is made to the script <a href="/deliverables/ajax/getWords.php">getWords.php</a> (not a download).  This script will request and return a random word from a database in XML format.  In order for this script to work, some other files are required
+                Each time the user clicks the button, an AJAX request for a word is made to the script "getWords.php".  This script will request and return a random word from a database in XML format.  In order for this script to work, some other files are required
                 <ol>
                   <li>
-                    <a href="/deliverables/ajax/setWords.php">setWords.php</a> – this is a script to initialize the database    
+                    "setWords.php" – this is a script to initialize the database    
                   </li>
                   <li>
-                    <a href="/deliverables/ajax/testwords.txt">testwords.txt</a> – this is a file of words used by the setWords.php script             
+                    "testwords.txt" – this is a file of words used by the setWords.php script             
                   </li>
                   <li>
-                    <a href="/deloverables/ajax/wordStyle.css">wordStyle.css</a> – simple style sheet to format the words (do us both a favor and make this look better)
+                    "wordStyle.css" – simple style sheet to format the words (do us both a favor and make this look better)
                   </li>
                 </ol>
               </li>
