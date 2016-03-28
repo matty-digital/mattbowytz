@@ -153,6 +153,10 @@
 		11 => array(
 			'HTTP Response' => 200,
 			'Message' => 'You found the response headers! Now you know my rap name!'
+		),
+		12 => array(
+			'HTTP Response' => 200,
+			'Message' => 'This is the data for quiz 2.'
 		)
 	);
 
@@ -227,6 +231,8 @@
 		)
 	);
 
+	$titles = array('Action Comics', 'Batman', 'Detective Comics', 'Ghost Rider', 'Hawkeye', 'Kommandi, The Last Boy on Earth', 'Micronauts', 'Nightwing', 'Powers', 'Red Lanterns', 'Spider-Man', 'Teen Titans', 'What If?', 'X-Men');
+
 	$matchFile = strcasecmp($_GET['method'],'simple_api') == 0;
 	$ifData    = isset($_GET['data']);
 
@@ -242,6 +248,13 @@
 		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
 		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
 		$response['data']   = 'You deserve a trophy for this. Unfortunately, it\'s going to have ot be one of those "verbal trophies", I mean, I\'m rich and famous just like you, but I\'m certainly not "giving out trophies all willie nillie" rich. Who do you think I am? Bruce Wayne?'; 
+	}
+
+	if ($matchFile && $ifData && strcasecmp($_GET['data'],'quizData') == 0) {
+		$response['code']   = 12;
+		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
+		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
+		$response['data']   = $titles; 
 	}
 
 	if ($matchFile && $ifData && strcasecmp($_GET['data'],'all') == 0) {
