@@ -937,10 +937,13 @@
                 Requirements: toggle file data using AJAX. This should be written as a PHP script
               </li>
               <li>
+                You can find the necessary files <a href="/deliverables/ajax.zip">here</a> (this zip file has the files needed for exercises 7, 8 and 9)
+              </li>
+              <li>
                 Initially your script will display a single button, saying "Toggle Data". However, the HTML on your page will also include an empty <code>div</code> tag identified by an id
               </li>
               <li>
-                A click on the button will first check to see if the data has already been downloaded from the server. If not, it will download it using an AJAX call. The response to the call will use DOM to add the result as a text node within the div. The script on the server will send the contents of a file as a single string. In your call you should specify the file name "file1.txt". See: getData.txt 
+                A click on the button will first check to see if the data has already been downloaded from the server. If not, it will download it using an AJAX call. The response to the call will use DOM to add the result as a text node within the div. The script on the server will send the contents of a file as a single string. In your call you should specify the file name "file1.txt". See: getData.php
               </li>
               <li>
                 If the data has already been downloaded then it should be stored / maintained on the client. In other words, the first click of the button should cause an AJAX call to getData.php but successive clicks will not use AJAX, since the data will already be stored in the client web tree
@@ -967,7 +970,7 @@
                  Initially show an .html page that has a single button that when clicked will display a quiz to the viewer
               </li>
               <li>
-                When the button is clicked, your script should request via AJAX / GET, the following XML document: <a href="/deliverables/ajax.zip">(download here, it's in this folder and called data.xml)</a>.  This document contains a number of quiz questions in XML format.  Look at the file to see the tags and nesting so that you can parse it correctly
+                When the button is clicked, your script should request via AJAX / GET, the following XML document: <a href="/deliverables/ajax.zip">(download here, files for exercises 7, 8 and 9)</a>.  This document contains a number of quiz questions in XML format.  Look at the file to see the tags and nesting so that you can parse it correctly
               </li>
               <li>
                 Once returned to your script via your XMLHttpRequest object, the XML document should be parsed and displayed as a sequence of questions with answers shown as options in an html select
@@ -994,7 +997,7 @@
             <p class="uc red-txt bold">Exercise 9</p>
             <ul class="ex-list">
               <li class="requirements">
-                Requirements: (read below) - The fllowing link should let you download the zip file containing resources for exercises 8 and 9) - <a href="/deliverables/ajax.zip">FILES HERE</a>
+                Requirements: (read below) - The fllowing link should let you download the zip file containing resources for exercises 7, 8 and 9) - <a href="/deliverables/ajax.zip">FILES HERE</a>
               </li>
               <li class="requirements">
                 You may need to do some troubleshooting to get the db part to work properly.
