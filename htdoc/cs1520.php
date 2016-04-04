@@ -1634,7 +1634,7 @@
           </div>
           <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
           <div class="col-lg-12 centered">
-            <p class="uc red-txt bold">Project Plan Part 2 - DUE ON MONDAY 4.11.16</p>
+            <p class="uc red-txt bold">Project Plan Part 2 - DUE ON MONDAY 4.25.16</p>
             <ul>
               <li>
                 This plan will be about the same as the plan for part 1
