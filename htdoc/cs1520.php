@@ -294,6 +294,8 @@
                 </li>
               </ul>
               <li>4.25.16 - Project Part 2</li>
+              <li class="uc red-txt bold"><u>4.30.16 last day to submit project part 2 || exercises || anything else</u></li>
+              <li>I will be responsive up until the above date in case you need anything from me!</li>
             </ul>
           </div>
         </div>
