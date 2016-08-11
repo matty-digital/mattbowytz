@@ -1,0 +1,13 @@
+@mixin flex-parent($align) {
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: $align;
+  width: 100%;
+}
+
+@mixin flex-child($width) {
+	display: block;
+	width: $width;
+}

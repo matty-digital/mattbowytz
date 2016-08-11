@@ -51,3 +51,43 @@
   font-style: italic;
   font-family: Georgia, serif;
 }
+
+.flex-parent {
+  @include flex-parent(center);
+}
+
+.btn0130 {
+  @include flex-child(50%);
+  @include transition(background-color .25s ease-out);
+  background-color: #35b335;
+  text-align: center;
+  &:hover {
+    background-color: darken(#35b335, 25%);
+  }
+  a {
+    color: #fff;
+    display: inline-block;
+    padding: 40px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.btn1520 {
+  @include flex-child(50%);
+  @include transition(background-color .25s ease-out);
+  text-align: center;
+  background-color: #efa723;
+  &:hover {
+    background-color: darken(#efa723, 25%);
+  }
+  a {
+    color: #fff;
+    display: inline-block;
+    padding: 40px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
