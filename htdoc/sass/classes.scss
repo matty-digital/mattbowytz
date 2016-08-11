@@ -1,0 +1,110 @@
+@import 'variables';
+@import 'mixins';
+@import 'global';
+@import 'helpers';
+@import 'navbar';
+
+.glyphicon-envelope {
+  top: 3px;
+}
+
+.last-row {
+  margin-bottom: 20px;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.b-ten {
+  margin-bottom: 10px;
+}
+
+.nav-spacing {
+  padding-bottom: 150px;
+}
+
+.block.b-ten {
+  clear: both;
+}
+
+.intro-section {
+  height: auto;
+  padding-top: 150px;
+  background: #eee;
+  border-bottom: 4px solid $red-txt;
+}
+
+.content-section {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.content-section:nth-child(odd) {
+  background: #ccc;
+  border-bottom: 4px solid $red-txt;
+}
+
+.content-section:nth-child(even) {
+  background: #eee;
+  border-bottom: 4px solid $red-txt;
+}
+
+.info-bubble {
+  border: 3px solid #333;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 10px;
+}
+
+.info-bubble .info-date {
+  color: #333;
+  border-left: 3px solid #333;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.info-bubble .info {
+  color: #333;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.syl-list {
+  margin-bottom: 10px;
+}
+
+.syl-list .syl-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.syl-list .syl-item {
+
+}
+
+.ex-list li {
+  text-align: left;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.ex-list .requirements {
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.panel-title a {
+  text-decoration: none;
+}
+

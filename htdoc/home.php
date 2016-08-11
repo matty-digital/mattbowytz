@@ -10,8 +10,8 @@
 
     <title>mattbowytz.com</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/cs1520.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/classes.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,9 +26,11 @@
       <div class="row">
         <div class="col-lg-12 centered">
           <h1 class=>WELCOME</h1>
-          <p>
-            There's a good chance you're looking for my class site, you can get there by clicking <a href="/cs1520.php">here</a>.
-          </p>
+          <h3>If you're looking for some computer science class sites, you've come to the right place!</h3>
+        </div>
+        <div class="flex-parent">
+          <div class="flex-child 0130-btn"></div>
+          <div class="flex-child 1520-btn"></div>
         </div>
       </div>
     </div>

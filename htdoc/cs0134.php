@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="Course site for Pitt CS1520">
+    <meta name="description" content="Course site for Pitt CS0134">
     <meta name="author" content="Matt Bowytz">
 
-    <title>CS 1520 Class Site</title>
+    <title>CS 0130 Class Site</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/classes.css" rel="stylesheet">
@@ -32,7 +32,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">CS 1520</a>
+          <a class="navbar-brand page-scroll" href="#page-top">CS 0134</a>
         </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,8 +83,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 centered">
-            <h1>CS 1520</h1>
-            <p class="large-strong">Programming Languages<br>for Web Applications</p>
+            <h1>CS 0134</h1>
+            <p class="large-strong">Web Design and Development</p>
             <p class="centered">FALL 2016</p>
           </div>
         </div>
@@ -131,9 +131,7 @@
           <div class="col-lg-12 centered">
             <h3>TEXTBOOK</h3>
             <ul>
-              <li>PROGRAMMING THE WORLD WIDE WEB</li>
-              <li>Eighth Edition</li>
-              <li>Robert W. Sebesta</li>
+              <li>TBA</li>
             </ul>
           </div>
         </div>

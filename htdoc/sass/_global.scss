@@ -1,0 +1,19 @@
+body, body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+	&.red-txt {
+  	color: $red-txt;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h3 {
+  color: $red-txt;
+}

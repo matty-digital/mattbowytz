@@ -1,0 +1,53 @@
+.red-txt {
+	color: $red-txt;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.und {
+  text-decoration: underline;
+}
+
+.large-strong {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.med {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.stars {
+  color: $red-txt;
+  margin-top: 10px;
+}
+
+.lg-star {
+  font-size: large;
+}
+
+.sep {
+  border-color: $red-txt;
+  width: 30%;
+}
+
+.sm-sep {
+  border-color: $red-txt;
+  width: 10%;
+}
+
+.quote {
+  font-style: italic;
+  font-family: Georgia, serif;
+}

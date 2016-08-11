@@ -1,0 +1,55 @@
+.navbar {
+  background: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: $red-txt;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: $red-txt;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: $red-txt;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #ccc;
+  background-color: $red-txt;
+}
+
+.navbar-default .navbar-nav > li.active {
+  background-color: $red-txt;
+}
+
+.navbar-default .navbar-nav > li.active:hover {
+  background-color: $red-txt;
+}
+
+.navbar-default .navbar-nav > li.active > a:hover {
+  color: #ccc;
+  background-color: $red-txt;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ccc;
+  background-color: $red-txt;
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
