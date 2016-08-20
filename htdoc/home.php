@@ -29,8 +29,8 @@
           <h3>If you're looking for some computer science class sites, you've come to the right place!</h3>
         </div>
         <div class="flex-parent">
-          <div class="btn0130">
-            <a class="large-strong" href="/cs0130.php">CS0130</a>
+          <div class="btn0134">
+            <a class="large-strong" href="/cs0134.php">CS0134</a>
           </div>
           <div class="btn1520">
             <a class="large-strong" href="/cs1520.php">CS1520</a>

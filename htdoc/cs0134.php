@@ -8,9 +8,8 @@
     <meta name="description" content="Course site for Pitt CS0134">
     <meta name="author" content="Matt Bowytz">
 
-    <title>CS 0130 Class Site</title>
+    <title>CS 0134 Class Site</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/classes.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
