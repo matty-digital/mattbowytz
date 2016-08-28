@@ -41,10 +41,10 @@
             <a href="https://github.com/cs0134" target="_blank">0134 GIT REPO</a>
           </div>
           <div class="style-guide-link">
-            <a href="https://gist.github.com/matty-digital/90aabd4ddb5fc02da90906b1d44d8f2b">STYLE GUIDE</a>
+            <a href="https://gist.github.com/matty-digital/90aabd4ddb5fc02da90906b1d44d8f2b" target="_blank">STYLE GUIDE</a>
           </div>
           <div class="repo1520-link">
-            <a href="https://github.com/cs1520">1520 GIT REPO</a>
+            <a href="https://github.com/cs1520" target="_blank">1520 GIT REPO</a>
           </div>
         </div>
       </div>
