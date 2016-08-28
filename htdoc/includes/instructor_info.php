@@ -26,13 +26,9 @@
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Office Hours</p>
         <ul>
-          <li>TBA</li>
+          <li>Thursday 4:30pm - 6:00pm</li>
+          <li>By appointment</li>
         </ul>
-      </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-      <div class="col-lg-12 centered">
-        <p class="uc red-txt bold">About</p>
-        <p>Coming Soon!</p>
       </div>
     </div>
   </div>

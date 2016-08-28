@@ -36,6 +36,17 @@
             <a class="large-strong" href="/cs1520.php">CS1520</a>
           </div>
         </div>
+        <div class="flex-parent">
+          <div class="repo0134-link">
+            <a href="https://github.com/cs0134" target="_blank">0134 GIT REPO</a>
+          </div>
+          <div class="style-guide-link">
+            <a href="https://gist.github.com/matty-digital/90aabd4ddb5fc02da90906b1d44d8f2b">STYLE GUIDE</a>
+          </div>
+          <div class="repo1520-link">
+            <a href="https://github.com/cs1520">1520 GIT REPO</a>
+          </div>
+        </div>
       </div>
     </div>
   </body>

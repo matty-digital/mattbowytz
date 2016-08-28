@@ -56,6 +56,14 @@
   @include flex-parent(center);
 }
 
+.l-ten {
+  margin-left: 10px;
+}
+
+.b-five {
+  margin-bottom: 5px;
+}
+
 .btn0134 {
   @include flex-child(50%);
   @include transition(background-color .25s ease-out);
@@ -84,7 +92,64 @@
   }
   a {
     color: #fff;
-    display: inline-block;
+    display: block;
+    padding: 40px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.style-guide-link {
+  margin-top: 20px;
+  @include flex-child(33%);
+  @include transition(background-color .25s ease-out);
+  text-align: center;
+  background-color: #c8379d;
+  &:hover {
+    background-color: darken(#c8379d, 25%);
+  }
+  a {
+    color: #fff;
+    display: block;
+    padding: 40px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.repo0134-link {
+  margin-top: 20px;
+  @include flex-child(33%);
+  @include transition(background-color .25s ease-out);
+  text-align: center;
+  background-color: #2b3382;
+  &:hover {
+    background-color: darken(#2b3382, 25%);
+  }
+  a {
+    color: #fff;
+    display: block;
+    padding: 40px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.repo1520-link {
+  margin-top: 20px;
+  @include flex-child(33%);
+  @include transition(background-color .25s ease-out);
+  text-align: center;
+  background-color: #009f91;
+  &:hover {
+    background-color: darken(#009f91, 25%);
+  }
+  a {
+    color: #fff;
+    display: block;
     padding: 40px 0;
     &:hover {
       text-decoration: none;

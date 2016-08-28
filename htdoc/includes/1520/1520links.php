@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12 centered">
         <h1>Useful Links</h1>
-        <p class="med">Coming Soon! Suggestions Welcome!</p>
+        <p class="med">Suggestions Welcome!</p>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered last-row">
@@ -26,6 +26,12 @@
           </li>
           <li class="b-ten">
             <a href="http://www.stackoverflow.com">StackOverflow</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://git-scm.com/doc">Git Manual</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://guides.github.com">GitHub Guides</a>
           </li>
           <li class="b-ten">
             <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>

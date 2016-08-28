@@ -2,107 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 centered">
-        <h1>Programming Project Part 2</h1>
+        <h1>Programming Project Part 1</h1>
         <p class="med">Class Project: PHP Website</p>
       </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-      <div class="col-lg-12 centered">
-        <p class="uc red-txt bold">Project Plan Part 2 - (For the evening section, Mon 7 - 9:30) DUE ON MONDAY 4.11.16</p>
-        <p class="uc red-txt bold">Project Plan Part 2 - (For the afternoon section, MonWed 4:30 - 5:45) DUE ON WEDNESDAY 4.6.16 by midnight</p>
-        <ul>
-          <li>
-            This plan will be about the same as the plan for part 1
-          </li>
-          <li class="bold">This project plan must be a formal document</li>
-          <ul>
-            <li>By this, I mean that I will not accept one sentence, saying something like "I'm going to make the site better."</li>
-            <li>The document should include the following:</li>
-            <li>Contact Info (name, email, etc.)</li>
-            <li>A brief summary of Part 1 that includes screnshots of the first iteration to illustrate the point</li>
-            <li>A detailed description of what you plan on doing for part 2</li>
-            <li class="bold">IF YOUR PART 2 PROJECT PLAN IS NOT SUBMITTED, OR DOES NOT ADHERE TO THE ABOVE REQUIREMENTS I WILL NOT ACCEPT YOUR PROJECT PART 2 UNTIL IT DOES</li>
-          </ul>
-          <li>Your plan should include the following:</li>
-          <ul>
-            <li>What new technologies will you be implementing</li>
-            <li>What new content (if any) will you be adding</li>
-            <li>Switching framework? Moving to MVC? Doing all on your own?</li>
-            <li>Feel free to ask any questions you may have, or if you want to use this as a forum to run your idea by me</li>
-          </ul>
-          <li class="bold">TO SUBMIT THE PROJECT PLAN, CREATE A GITHUB GIST AND EMAIL ME THE LINK TO IT</li>
-          <li>Instructions on how to create a gist can be found <a href="https://help.github.com/articles/creating-gists/">here</a></li>
-        </ul>
-      </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-      <div class="col-lg-12 centered">
-        <p class="uc red-txt bold">Requirements</p>
-        <ul>
-          <li class="bold">First and foremost, the changes must be significant and/or meaningful. Meaning that changing a few lines of code, or changing some variables will not be enough to count as a qualified submission</li>
-          <li>JS or jQuery must be used in some way for the second part of the project</li>
-          <ul>
-            <li>If you do not know how to, or cannot think of a way to do this ask the TA or myself for advice</li>
-            <li>This is still going to be a php project, so taking everything out of php and putting it in html files will not be acceptable</li>
-            <li>You can incorporate an API, create form submissions without reloading the page, etc.</li>
-          </ul>
-          <li>If you, for some reason, did not have some kind of database finctionality n part 1, you must include that in part 2</li>
-          <ul>
-            <li>If you did not make db functionality for part 1, you must demonstrate the functionality to me on the day it is due</li>
-          </ul>
-          <li>The required amount of pages has not changed, however if you want to include more pages, that is fine with me, but don'g go overboard</li>
-          <li>If you were lacking in actual content for part 1, take this opporunity to put meaningful site content into the project</li>
-          <li>Since we've gone over more CSS and HTML and things like that, you may want to refresh your site viaually. Make things look a little better, make the layout easier on the eyes, etc.</li>
-          <li>It shouldn't take you as long to do part 2, unless your first iteration was lacking</li>
-        </ul>
-      </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-      <div class="col-lg-12 centered">
-        <p class="uc red-txt bold">Submission Guidelines</p>
-        <ul>
-          <li>For the second part of the project, all submissions MUST be through git</li>
-          <li>Create a repo for your project and send me the link to it when it is complete</li>
-          <li>ZIP FILES VIA EMAIL WILL NOT BE ACCEPTED, IF YOU NEED HELP GETTING THINGS IN GITHUB PLEASE CONTACT ME</li>
-          <ul>
-            <li>Additionaly:</li>
-            <li>Make a copy of your files from part 1</li>
-            <li>Create a directory, OUTSIDE of the directory for the final submission called "Legacy"</li>
-            <li>In here you will place the files from Part 1 and include a text file with the following information:</li>
-            <li>What did you change/enhance from part 1?</li>
-            <li>If there was a third part to the class project, what would you like to implement?</li>
-            <li>What did you learn between part 1 and part 2?</li>
-            <li>What did you like about this project? How could it have been better?</li>
-            <li class="bold">Please put some thought into answering these questions. I do not want to see one line answers that read something like "I learned some stuff." or "I changed some code." or anything like that.</li>
-            <li class="bold">If you do not include the old files or the text file, your project will not be considered to be complete and you will not receive a grade.</li>
-          </ul>
-        </ul>
-      </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
-      <div class="col-lg-12 centered">
-        <p class="uc red-txt bold">Grading Rubric</p>
-        <ul>
-          <li>
-            The grading for second part of the project will be handled the same way, but in comparison to what you did for part 1
-          </li>
-          <li>
-            Clean, readable, sematic code, organized assets and folders, etc.: 15%
-          </li>
-          <li>
-            Intelligent implementation of requirements: 55%
-          </li>
-          <li>
-            Usability (navigation works, the site loads, assests aren't broken or unavilable, it's not too confusing to use, looks ok etc.): 25%
-          </li>
-          <li>
-            Submission guidelines are adhered to: 5%
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 centered">
-        <h1>Programming Project</h1>
-        <p class="med">Class Project: PHP Website</p>
-      </div>
-      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+			<span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Project Plan</p>
         <ul>
@@ -142,6 +45,7 @@
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Requirements</p>
         <ul>
+        	<li>Organized file tree</li>
           <li>
             One page or multi page layout. Minimum of three sections/pages
           </li>
@@ -196,18 +100,8 @@
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Submission Guidelines</p>
         <ul>
-          <li>
-            TWO methods of submission will be accepted.
-          </li>
-          <li>
-            FIRST OPTION: place everything in a GitHub repo that I can access to pull down the code. If you are not familiar with this method and would still like to submit this way, please contact me so I can help you out.
-          </li>
-          <li>
-            SECOND OPTION: zip file of all necessary files. I do not want to see the contents of the zip file to produce just a pile of files in an unorganized manner. All assets should be intelligently located in folders.
-          </li>
-          <li>
-            Basically there should be one parent folder that contains everything. Then one folder for each asset group. Ex. CSS, Images, Views etc. Feel free to do some research on the topic.
-          </li>
+          <li>Submissions must be through GitHub</li>
+          <li>Remember to make a copy of the project folder continaing the file tree. You will need an unaltered version of this to hand in alongside your part two.</li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
@@ -221,16 +115,15 @@
             Clean, readable, sematic code, organized assets and folders, etc.: 15%
           </li>
           <li>
-            Intelligent implementation of requirements: 55%
+            Intelligent implementation of requirements: 45%
           </li>
           <li>
             Usability (navigation works, the site loads, assests aren't broken or unavilable, it's not too confusing to use, looks ok etc.): 25%
           </li>
           <li>
-            Submission guidelines are adhered to: 5%
+            Submission guidelines are adhered to: 15%
           </li>
         </ul>
       </div>
-    </div>
   </div>
 </section>
