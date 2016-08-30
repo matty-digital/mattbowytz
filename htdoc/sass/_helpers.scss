@@ -102,7 +102,7 @@
 
 .style-guide-link {
   margin-top: 20px;
-  @include flex-child(33%);
+  flex: 1;
   @include transition(background-color .25s ease-out);
   text-align: center;
   background-color: #c8379d;
@@ -121,7 +121,7 @@
 
 .repo0134-link {
   margin-top: 20px;
-  @include flex-child(33%);
+  flex: 1;
   @include transition(background-color .25s ease-out);
   text-align: center;
   background-color: #2b3382;
@@ -140,7 +140,7 @@
 
 .repo1520-link {
   margin-top: 20px;
-  @include flex-child(33%);
+  flex: 1;
   @include transition(background-color .25s ease-out);
   text-align: center;
   background-color: #009f91;
