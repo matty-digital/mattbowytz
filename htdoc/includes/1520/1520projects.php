@@ -34,7 +34,7 @@
             OPTIONAL: Do you want to use some advanced topics? Such as MVC structure, or using PHP as a backend for some other frontend framework, etc. This will not entitle you to different or better grading. You will still be accountable for all the same requirements. I am well enough equipped to review, grade and comment on most implementations.
           </li>
           <li>
-            Email me this information is whatever format you like. If you would like further direction on anything, let me know. Let's have fun and demonstrate what we've learned so far!
+            Email me this information in whatever format you like. If you would like further direction on anything, let me know. Let's have fun and demonstrate what we've learned so far!
           </li>
           <li>
             NOTE: Since the class project is split up into two milestones (part one due halfway through, part two due at the end), this is really only in relation to the first part of this project. All the requirements will be the same for part two, but just implementing features based on what we will learn during the second half of the class.
