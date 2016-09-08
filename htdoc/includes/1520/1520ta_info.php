@@ -9,14 +9,14 @@
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered b-ten">
-        <p class="uc red-txt bold">Contact</p>
+        <p class="uc red-txt bold">Jeongmin Lee</p>
         <span class="glyphicon glyphicon-envelope"></span>
-        <a href="mailto:XXXX@cs.pitt.edu">XXXX@cs.pitt.edu</a>
+        <a href="mailto:jlee@cs.pitt.edu">jlee@cs.pitt.edu</a>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Office Hours</p>
-        <p></p>
+        <p>TBA</p>
         <p></p>
       </div>
     </div>
