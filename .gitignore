@@ -1,3 +1,5 @@
 /vendor
 
 /htdoc/.sass-cache
+
+.idea/

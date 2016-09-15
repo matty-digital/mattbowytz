@@ -15,6 +15,12 @@
           <li class="b-ten">
             <a href="https://docs.google.com/presentation/d/1SbbgNU6tI9ox5f-f2zCL_3mLtuEA78AbSChq1bRqM7c/edit?usp=sharing">Lecture 2 - Intro to the internet</a>
           </li>
+          <li class="b-ten">
+            <a href="https://docs.google.com/presentation/d/1yecxAqjAn1XFdaXsmWBtgtQcfQ316DBkYPQ10mwrXG0/edit?usp=sharing">Lecture 3 - HTML5</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://docs.google.com/presentation/d/1LlT1aNRwrHlHWZfMV1Xtt2gLGM2ZWC3pCzCFKZ5R3wQ/edit?usp=sharing">Lecture 4 - CSS</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>

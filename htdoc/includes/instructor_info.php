@@ -26,6 +26,7 @@
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Office Hours</p>
         <ul>
+          <li>6148 (Next to the display with all the old computers in it)</li>
           <li>Thursday 4:30pm - 6:00pm</li>
           <li>By appointment</li>
         </ul>
