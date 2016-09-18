@@ -22,6 +22,12 @@
             <a href="https://guides.github.com">GitHub Guides</a>
           </li>
           <li class="b-ten">
+            <a href="https://css-tricks.com/all-about-floats/">All About Floats</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">All About Flex</a>
+          </li>
+          <li class="b-ten">
             <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>
           </li>
           <li class="b-ten">
