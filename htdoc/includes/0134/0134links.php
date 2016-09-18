@@ -28,6 +28,9 @@
             <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">All About Flex</a>
           </li>
           <li class="b-ten">
+            <a href="http://learnlayout.com/">CSS Layout Tips</a>
+          </li>
+          <li class="b-ten">
             <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>
           </li>
           <li class="b-ten">
