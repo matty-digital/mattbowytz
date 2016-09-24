@@ -19,6 +19,18 @@
                   <li class="b-ten">
                     <a href="./book-examples/BookCH2.zip">Book Examples, Chapter 2</a>
                   </li>
+                  <li class="b-ten">
+                    <a href="./book-examples/BookCH3.zip">Book Examples, Chapter 3</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./book-examples/BookCH4.zip">Book Examples, Chapter 4</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./book-examples/BookCH5.zip">Book Examples, Chapter 5</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./book-examples/BookCH6.zip">Book Examples, Chapter 6</a>
+                  </li>
                 </ul>
               </div>
             </div>
