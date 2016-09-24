@@ -18,6 +18,12 @@
           <li class="b-ten">
             <a href="https://docs.google.com/presentation/d/1rDCCJn9pdeJY0OPh5a944CpA2-zNGP4_WVDxwSKD8fM/edit?usp=sharing">Lecture 3 - Intro to HTML5</a>
           </li>
+          <li class="b-ten">
+            <a href="https://docs.google.com/presentation/d/1LlT1aNRwrHlHWZfMV1Xtt2gLGM2ZWC3pCzCFKZ5R3wQ/edit?usp=sharing">Lecture 4 - Intro to CSS</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://docs.google.com/presentation/d/1naM_6XH0N-HpcUzwKBnE7bxVoLwD9z1I9xCrpyBTuPA/edit?usp=sharing">Lecture 4.5 - More CSS</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
