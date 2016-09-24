@@ -10,13 +10,16 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" class="block" href="#collapse1">PHP/HTML Handouts</a>
+                <a data-toggle="collapse" class="block" href="#collapse1">HTML/CSS/JS Handouts</a>
               </h4>
             </div>
             <div id="collapse1" class="panel-collapse collapse">
               <div class="panel-body">
-                If you click on the links for the .php handouts, the server will attempt to run them. This may or may not cause an error (depending on the server you are using for access) but it will definitely not show you the .php source code.
-                To run these handouts I recommend copying them to your local XAMMP server directories and running them there. For information on XAMPP, go <a href="https://www.apachefriends.org/index.html">here</a>.
+                <ul>
+                  <li class="b-ten">
+                    <a href="./book-examples/BookCH2.zip">Book Examples, Chapter 2</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

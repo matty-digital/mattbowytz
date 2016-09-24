@@ -31,6 +31,9 @@
             <a href="http://learnlayout.com/">CSS Layout Tips</a>
           </li>
           <li class="b-ten">
+            <a href="http://jqfundamentals.com">Interactive jQuery Tutorial</a>
+          </li>
+          <li class="b-ten">
             <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>
           </li>
           <li class="b-ten">
