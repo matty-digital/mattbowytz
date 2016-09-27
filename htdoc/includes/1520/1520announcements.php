@@ -9,6 +9,12 @@
       <div class="col-lg-12">
         <p class="uc red-txt bold">Class Announcements and Info</p>
         <ul class="info-bubble last-row">
+          <li class="date">9.27.16</li>
+          <li class="b-ten">
+            New pull request, general submission guidelines - When submitting something, make sure to include your real name in there. Not just your GitHub username.
+          </li>
+        </ul>
+        <ul class="info-bubble last-row">
           <li class="date">9.24.16</li>
           <li class="b-ten">
             I've added some zip files to the handouts section. These files come directly from the book, but they are still valid resources when you are just getting better with all this stuff.
