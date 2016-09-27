@@ -12,6 +12,9 @@
           <li class="requirements centered">
             <a class="bold" href="https://github.com/cs1520/assignment1" target="_blank">ASSIGNMENT 1</a>
           </li>
+          <li class="requirements centered">
+            <a class="bold" href="https://github.com/cs1520/assignment2" target="_blank">ASSIGNMENT 2</a>
+          </li>
         </ul>
         <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       </div>
