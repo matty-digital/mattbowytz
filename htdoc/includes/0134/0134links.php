@@ -22,6 +22,9 @@
             <a href="https://guides.github.com">GitHub Guides</a>
           </li>
           <li class="b-ten">
+            <a href="https://www.atlassian.com/git/tutorials/">Git Tutorials</a>
+          </li>
+          <li class="b-ten">
             <a href="https://css-tricks.com/all-about-floats/">All About Floats</a>
           </li>
           <li class="b-ten">

@@ -34,6 +34,9 @@
             <a href="https://guides.github.com">GitHub Guides</a>
           </li>
           <li class="b-ten">
+            <a href="https://www.atlassian.com/git/tutorials/">Git Tutorials</a>
+          </li>
+          <li class="b-ten">
             <a href="http://jqfundamentals.com">Interactive jQuery Tutorial</a>
           </li>
           <li class="b-ten">
