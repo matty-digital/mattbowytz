@@ -49,6 +49,15 @@
             <a href="http://learnlayout.com/">CSS Layout Tips</a>
           </li>
           <li class="b-ten">
+            <a href="https://www.apachefriends.org/index.html">XAMPP Installation</a>
+          </li>
+          <li class="b-ten">
+            <a href="https://jason.pureconcepts.net/2014/11/install-apache-php-mysql-mac-os-x-yosemite/">PHP Server on Mac</a>
+          </li>
+          <li class="b-ten">
+            <a href="http://php.net/">PHP Manual</a>
+          </li>
+          <li class="b-ten">
             <a href="http://www.cs.pitt.edu/undergrads/crc">CS Peer Tutoring Schedule</a>
           </li>
           <li class="b-ten">
