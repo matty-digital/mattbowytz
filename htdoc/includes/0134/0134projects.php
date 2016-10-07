@@ -36,9 +36,9 @@
         		<li>Etc.</li>
         	</ul>
         	<li>Well though out design and layout</li>
-        	<li>Use JS and jQuery (At least 3 instances, just demonstrate what you've learned one can be an image carousel)</li>
+        	<li>Use JS and jQuery (At least 3 instances, just demonstrate what you've learned one can be an image carousel) <em>NOTE: JS NOT REQUIRED FOR PART ONE BUT I WON'T STOP YOU FROM USING IT</em></li>
         	<li>Images, tables for tabular data, etc.</li>
-        	<li>All assets must be included with submission</li>
+        	<li>All assets must be included with submission and orgainized into a neat file tree</li>
         	<li>Submission must be through GitHub</li>
         	<li>Please don't hesitate to ask if you have <b>ANY</b> questions about this project</li>
         </ul>
