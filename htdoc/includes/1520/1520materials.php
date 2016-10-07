@@ -27,6 +27,12 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1C_rrHYcR-pyQv9HJeDfb4buRVwpVOSnP6e8G_D5Nmyw/edit?usp=sharing">Lecture 6 - jQuery</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1RYJwWpYZuz-4InRg12U49O8qkxth4hwy0Pq79cscId0/edit?usp=sharing">Lecture 7 - Intro to PHP</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1x1V5Kek53epQc7P0wPLvkPdiEvJDCrkFWRtyMqbpJ-0/edit?usp=sharing">Lecture 8 - More PHP</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
