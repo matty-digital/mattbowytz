@@ -38,7 +38,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" class="block" href="#collapse2">HTML/CSS/JS Handouts</a>
+                <a data-toggle="collapse" class="block" href="#collapse2">PHP Handouts</a>
               </h4>
             </div>
             <div id="collapse2" class="panel-collapse collapse">
