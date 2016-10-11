@@ -33,6 +33,20 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1GPwX0ZKHo5QYWxux7EhzhnoQJ7l3e31X4QbXN4p8OjM/edit?usp=sharing">Lecture 7 - Website Design</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1AvIpWReUrYlSpUOG0xpQ8Uh_oY1AEL-3qvIZcgQPejM/edit?usp=sharing">Lecture 8 - Tables</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1vyBMid0MF7dz7c8OGR9Yb1_GU3_tToOSfeV81DfdWBA/edit?usp=sharing">Lecture 9 - Images</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/13xU4zP3jq4eOx-hXRiF620yAWpDj0wGo6VW5znJh6yk/edit?usp=sharing">Lecture 10 - Audio &amp; Video</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/document/d/1nvvNCv6GDChY5hZTF6g4kDep1-5ng8kO_ogIz2r23Fk/edit?usp=sharing">QUIZ 1 ANSWERS</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
