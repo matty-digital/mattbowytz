@@ -2,6 +2,93 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 centered">
+        <h1>Programming Project Part 2</h1>
+        <p class="med">Class Project: PHP Website (But for real this time)</p>
+      </div>
+      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+      <div class="col-lg-12 centered">
+        <p class="uc red-txt bold">Project Plan Part 2</p>
+        <ul>
+          <li>
+            Very similar to part one, this must be a github gist that is professionally written. It must include your name, CS1520, and email address.
+          </li>
+          <li>
+            Make use of github markdown, I will not accept a run-on plain text file (look into GitHub Markdown if you need a hand)
+          </li>
+          <li>
+            Your plan should include the following:
+          </li>
+          <li>
+            What are you going to improve on from part one?
+          </li>
+          <li>
+            Are you going to improve your project from part one? Or are you going to do something completely different?
+          </li>
+          <li>
+            Using a frontend framework? Which one?
+          </li>
+          <li>
+            Also, anything else you think may be important to have added to the plan. We just want to cover all our bases.
+          </li>
+          <li>
+            A list of ANY questions you may have about your idea or the project in general. This is the best time to hammer out any of the smaller details.
+          </li>
+          <li>
+            If you were thinking about using some advanced topics, like MVC or anything like that, let me know as this would be the time to do it.
+          </li>
+        </ul>
+      </div>
+      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+      <div class="col-lg-12 centered">
+        <p class="uc red-txt bold">Requirements</p>
+        <ul>
+          <li>Organized file tree</li>
+          <li>
+            Document stating what you changed/fixed/implemented vs. Part 1 and what you've learned since then. Be thorough and provide details. Should be about a page long.
+          </li>
+          <li>
+            There must be some Database interactivity
+          </li>
+          <li>
+            Better use of JS, perhaps using an API? (We'll be going over some of them, but don't hesitate to research on your own)
+          </li>
+          <li>
+            Programming Requirements:
+          </li>
+          <li>
+            The entire site must be in PHP this time.
+          </li>
+          <li>
+            Use of variables, includes, arrays, functions, file reading etc.
+          </li>
+          <li>
+            When should I use [requirement]?
+          </li>
+          <li>
+            Ex. If you have a collection of links that have text and hrefs that need to be displayed, store them in an array and correctly loop through them where you want them to display
+          </li>
+          <li>
+            Ex. Repeating some PHP more than once in a PHP block? Store it in a variable.
+          </li>
+          <li>
+            Use PHP partials to keep the code clean and organized, no need to repeat yourself.
+          </li>
+          <li>
+            There are no hard requirements for what PHP to use and when. The best approach would be to use as many of the topics covered in class (appropriately) as necessary to make the site work and prove your ability
+          </li>
+          <li>
+            If you are unsure on what to use or when/how to use it, please reach out to me or a TA
+          </li>
+          <li>
+            PLEASE DO NOT HESITATE TO ASK IF YOU NEED CLARIFICATION OR HELP WITH ANYTHING. I CANNOT STRESS THIS ENOUGH
+          </li>
+          <li>
+            Grading Rubric will be the same as for part one.
+          </li>
+        </ul>
+      </div>
+      <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
+      <div class="col-lg-12 centered">
         <h1>Programming Project Part 1</h1>
         <p class="med">Class Project: PHP Website</p>
       </div>
@@ -101,7 +188,7 @@
         <p class="uc red-txt bold">Submission Guidelines</p>
         <ul>
           <li>Submissions must be through GitHub</li>
-          <li>Remember to make a copy of the project folder continaing the file tree. You will need an unaltered version of this to hand in alongside your part two.</li>
+          <li>Remember to make a copy of the project folder containing the file tree. You will need an unaltered version of this to hand in alongside your part two.</li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
