@@ -33,6 +33,9 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1x1V5Kek53epQc7P0wPLvkPdiEvJDCrkFWRtyMqbpJ-0/edit?usp=sharing">Lecture 8 - More PHP</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1R3wEE9fzPsvS56yxk9UYswZzI0OTr8yNuK26dunGVDc/edit?usp=sharing">Lecture 9 - PHP Session, State, DB Intro, Etc.</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
