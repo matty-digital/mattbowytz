@@ -68,6 +68,36 @@
                   <li class="b-ten">
                     <a href="./deliverables/ex8/ex8.php.zip">PHP ex 8</a>
                   </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ex9/ex9.zip">PHP ex 9</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ex10/ex10.zip">PHP ex 10</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ex11/ex11.php.zip">PHP ex 11</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ex12/ex12.zip">PHP ex 12</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ex13/session.zip">PHP ex 13</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/oop/oop.zip">OOP PHP</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/flock/flock.zip">flock</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/getpost/getpost.zip">getpost</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/readwrite/readwrite.zip">readwrite</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/ajax.zip">AJAX</a>
+                  </li>
                 </ul>
               </div>
             </div>
