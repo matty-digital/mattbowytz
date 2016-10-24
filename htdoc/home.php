@@ -25,9 +25,6 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 centered">
-          <h1><a href="https://docs.google.com/document/d/1Hcia38YSjSfTJZ4qQIvGaXMAFt-L7EEMssDMrF-7th0/edit?usp=sharing" target="_blank">EXTRA CREDIT</a></h1>
-        </div>
-        <div class="col-lg-12 centered">
           <h1 class=>WELCOME</h1>
           <h3>If you're looking for some computer science class sites, you've come to the right place!</h3>
         </div>
