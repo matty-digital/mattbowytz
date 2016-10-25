@@ -36,6 +36,12 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1R3wEE9fzPsvS56yxk9UYswZzI0OTr8yNuK26dunGVDc/edit?usp=sharing">Lecture 9 - PHP Session, State, DB Intro, Etc.</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1_Z0l-A7Ro6gyPJUIUr1GjScHdamH6QUXV6jNst2eTME/edit?usp=sharing">Lecture 10 - OOP PHP Intro</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1aJqNPx_d0xIKyLJC7HVpczdhcEMaB7zBRJRh5ycvF8c/edit?usp=sharing">Lecture 11 - More OOP PHP</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
