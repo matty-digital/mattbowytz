@@ -4,6 +4,11 @@
       <div class="col-lg-12 centered">
         <h1>Online Materials</h1>
         <p class="med">Slides and Exam/Quiz Materials</p>
+        <ul>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/document/d/1ukljCd2-LjAMljqunp3Zn1JabqOMj-v1aqId_gItcgw/edit?usp=sharing">Midterm Answers</a>
+          </li>
+        </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">
