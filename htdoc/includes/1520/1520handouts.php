@@ -45,6 +45,9 @@
               <div class="panel-body">
                 <ul>
                   <li class="b-ten">
+                    <a href="https://gist.github.com/matty-digital/5ff9521fa3ea1e388bcb2ce5cd515c23">OOP In Class Example</a>
+                  </li>
+                  <li class="b-ten">
                     <a href="./deliverables/ex1/ex1.zip">PHP ex 1</a>
                   </li>
                   <li class="b-ten">
