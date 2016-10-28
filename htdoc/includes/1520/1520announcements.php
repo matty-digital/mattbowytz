@@ -9,6 +9,12 @@
       <div class="col-lg-12">
         <p class="uc red-txt bold">Class Announcements and Info</p>
         <ul class="info-bubble last-row">
+          <li class="date">10.28.16</li>
+          <li class="b-ten">
+            Assignment 3 link is up as well as a link to a gist containing the in class oop php example
+          </li>
+        </ul>
+        <ul class="info-bubble last-row">
           <li class="date">9.27.16</li>
           <li class="b-ten">
             New pull request, general submission guidelines - When submitting something, make sure to include your real name in there. Not just your GitHub username.
