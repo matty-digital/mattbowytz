@@ -42,6 +42,27 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/13xU4zP3jq4eOx-hXRiF620yAWpDj0wGo6VW5znJh6yk/edit?usp=sharing">Lecture 10 - Audio &amp; Video</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1f7b44ZU6WgkxVWOxUJekHHfgpCzDgMZiJF9jSoPyPG8/edit?usp=sharing">Lecture 11 - Fonts &amp; Printing</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1FL2Ppu5muDzAR7dxneESyLo2Lw74Bii5TP3gy1eIxWw/edit?usp=sharing">Lecture 12 - Transitions &amp; Animations</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1uo12xhcbdgjAh4ZLQV53G2eJdY18v4ZYSGHbiNhs0wo/edit?usp=sharing">Lecture 13 - JS &amp; jQuery</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1uo12xhcbdgjAh4ZLQV53G2eJdY18v4ZYSGHbiNhs0wo/edit?usp=sharing">Lecture 14 - jQuery UI</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1MQZ9AI_XEO3hnB_8uy51OiUksVe6A6EcgfmP0CkUGJo/edit?usp=sharing">Lecture 15 - jQuery Mobile</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1C_rrHYcR-pyQv9HJeDfb4buRVwpVOSnP6e8G_D5Nmyw/edit?usp=sharing">jQuery Day 1</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/12TZT-ASF10eYjspK3jU35w0XjnaZAs2lL8Qay-BpBLo/edit?usp=sharing">More JS</a>
+          </li>
         </ul>
         <ul>
           <li class="b-ten">
