@@ -156,7 +156,7 @@
 		),
 		12 => array(
 			'HTTP Response' => 200,
-			'Message' => 'This is the data for quiz 2.'
+			'Message' => 'This is the data for assignment4.'
 		)
 	);
 
@@ -247,10 +247,10 @@
 		$response['code']   = 11;
 		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
 		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
-		$response['data']   = 'You deserve a trophy for this. Unfortunately, it\'s going to have ot be one of those "verbal trophies", I mean, I\'m rich and famous just like you, but I\'m certainly not "giving out trophies all willie nillie" rich. Who do you think I am? Bruce Wayne?'; 
+		$response['data']   = 'You deserve a trophy for this. Unfortunately, it\'s going to have ot be one of those "verbal trophies", I mean, I\'m rich and famous just like you, but I\'m certainly not "giving out trophies all willie nillie" rich. Who do you think I am? Scrooge McDuck? He\'s the richest duck I know.';
 	}
 
-	if ($matchFile && $ifData && strcasecmp($_GET['data'],'quizData') == 0) {
+	if ($matchFile && $ifData && strcasecmp($_GET['data'],'comics') == 0) {
 		$response['code']   = 12;
 		$response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
 		$response['info']   = array("hint" => $api_response_code[ $response['code'] ]['Message']);
