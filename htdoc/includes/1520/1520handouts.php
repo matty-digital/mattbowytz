@@ -101,6 +101,12 @@
                   <li class="b-ten">
                     <a href="./deliverables/ajax.zip">AJAX</a>
                   </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/jquery.zip">jQuery (and AJAX)</a>
+                  </li>
+                  <li class="b-ten">
+                    <a href="./deliverables/javascript.zip">More JS</a>
+                  </li>
                 </ul>
               </div>
             </div>

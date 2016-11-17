@@ -47,6 +47,15 @@
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1aJqNPx_d0xIKyLJC7HVpczdhcEMaB7zBRJRh5ycvF8c/edit?usp=sharing">Lecture 11 - More OOP PHP</a>
           </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1omUo4JHUsxadjutaYrHeYespLVIi2X04XPWaowiFz0g/edit?usp=sharing">Lecture 12 - AJAX</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/17RNaiXw2hm2QjjqhV4CuP5uKWZq-Be0KZmorBpUhqW4/edit?usp=sharing">Lecture 13 - Client Storage</a>
+          </li>
+          <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/16AvU2mMz0C_e4EKoNzHL3fQx-_bhKOyW2pQL6lAl_r8/edit?usp=sharing">Some API Info</a>
+          </li>
         </ul>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
