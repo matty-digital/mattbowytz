@@ -60,7 +60,7 @@
             All coding submissions MUST adhere to the coding style guide that can be found <a href="https://gist.github.com/matty-digital/90aabd4ddb5fc02da90906b1d44d8f2b" target="_blank">here</a>.
           </li>
           <li class="b-five">
-            All submissions MUST be turned in through gitHub. Emailed files will not be considered.
+            All submissions MUST be turned in through GitHub. Emailed files will not be considered.
           </li>
           <li class="b-five">
             Any code submitted for class MUST run in some capacity. If I run the code and I am hit with a screen full of errors, it will not be accepted. Of course, there will be special cases regarding this, which we will discuss when the time comes.
@@ -75,7 +75,7 @@
             Yes, there will be extra credit!! Lucky you! Any extra credit will be mentioned along with the assignment, or shortly after. Note: you cannot get higher than 100% through extra credit.
           </li>
           <li class="b-five">
-            If you have any questions about the grading requirements, please don't hesitate to ask. We can work out accomodations if necessary.
+            If you have any questions about the grading requirements, please don't hesitate to ask. We can work out accommodations if necessary.
           </li>
         </ul>
       </div>
@@ -113,13 +113,13 @@
             Quizzes will be given in class. You will have the entire class period to complete it. The quizzes will generally include material covered in the previous class(es) and recitation(s). Time permitting, we will have a review session prior to the quiz.
           </li>
           <li class="b-five">
-            There will be a total of 2 quizzes thoughout the term. These will not be written quizzes and you will be given a link to the repo in order to fork it and submit when completed.
+            There will be a total of 2 quizzes throughout the term. These will not be written quizzes and you will be given a link to the repo in order to fork it and submit when completed.
           </li>
           <li class="b-five">
             Quizzes can only be made up if you contact me in advance. If you miss a quiz without informing me, you will receive a zero and will be unable to make it up.
           </li>
           <li class="b-five">
-            You can find the tenative dates for the quizzes in the syllabus section.
+            You can find the tentative dates for the quizzes in the syllabus section.
           </li>
         </ul>
       </div>
@@ -137,7 +137,7 @@
             Exams will be a combination of written and coding, in some capacity.
           </li>
           <li class="b-five">
-            You can find the tenative dates for the exams in the syllabus section.
+            You can find the tentative dates for the exams in the syllabus section.
           </li>
         </ul>
       </div>
@@ -152,7 +152,7 @@
             There will be 6 total assignments throughout the term. They are typically due the week after they are assigned.
           </li>
           <li class="b-five">
-            These won't be large scale projects, but you are encouraged to be as fancy as you like, so long as you fufill the basic requirements.
+            These won't be large scale projects, but you are encouraged to be as fancy as you like, so long as you fulfill the basic requirements.
           </li>
           <li class="b-five">
             Depending on the subject matter of the assignment, class time may be given to work on it.
