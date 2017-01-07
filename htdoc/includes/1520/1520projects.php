@@ -10,10 +10,10 @@
         <p class="uc red-txt bold">Project Plan Part 2</p>
         <ul>
           <li>
-            Very similar to part one, this must be a github gist that is professionally written. It must include your name, CS1520, and email address.
+            Very similar to part one, this must be a GitHub gist that is professionally written. It must include your name, CS1520, and email address.
           </li>
           <li>
-            Make use of github markdown, I will not accept a run-on plain text file (look into GitHub Markdown if you need a hand)
+            Make use of GitHub markdown, I will not accept a run-on plain text file (look into GitHub Markdown if you need a hand)
           </li>
           <li>
             Your plan should include the following:

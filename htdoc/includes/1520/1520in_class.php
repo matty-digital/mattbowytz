@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12 centered">
         <h1>Assignments</h1>
-        <p class="med">Typically Due the week after they are assigned, unless otherwise noted.</p>
+        <p class="med">Typically due the week after they are assigned, unless otherwise noted.</p>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">
