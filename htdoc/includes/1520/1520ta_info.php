@@ -9,9 +9,9 @@
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered b-ten">
-        <p class="uc red-txt bold">Jeongmin Lee</p>
+        <p class="uc red-txt bold">Henrique Potter</p>
         <span class="glyphicon glyphicon-envelope"></span>
-        <a href="mailto:jlee@cs.pitt.edu">jlee@cs.pitt.edu</a>
+        <a href="mailto:henriquepotter.hp@gmail.com">henriquepotter.hp@gmail.com</a>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">

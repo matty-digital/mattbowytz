@@ -4,7 +4,7 @@
       <div class="col-lg-12 centered">
         <h1>CS 0134</h1>
         <p class="large-strong">Web Design and Development</p>
-        <p class="centered">FALL 2016</p>
+        <p class="centered">SPRING 2017</p>
       </div>
     </div>
     <div class="row">
