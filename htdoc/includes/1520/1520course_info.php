@@ -7,7 +7,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12 centered">
-        <p class="med">Course Information</p>            
+        <p class="med">Course Information</p>
       </div>
       <span class="glyphicon glyphicon-star-empty centered block b-ten"></span>
       <div class="col-lg-12">
@@ -18,7 +18,7 @@
       <div class="col-lg-12">
         <p class="uc red-txt bold">Text:</p>
         <p>
-          Programming the World Wide Web, Eight Edition by Robert Sebesta, Pearson Education Many language references will also be needed - these can be obtained from online sites
+          Programming the World Wide Web, Eighth Edition by Robert Sebesta, Pearson Education. Many language references will also be needed - these can be obtained from online sites
         </p>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
@@ -89,13 +89,13 @@
         <p class="uc red-txt bold">General</p>
         <ul>
           <li class="b-five">
-            Unless otherwise stated, Each student is expected to do his/her own work. If a student caught collaborating / cheating in any way will fail the class immediately and will also immediately be reported to the Department of Academic Integrity and may be subject to stronger actions. Note: Submissions that are alike in a substantive way (not due to coincidence) will be considered to be cheating by ALL involved parties. Please protect yourselves by only storing your files in private directories or repositories, and by retrieving any printouts promptly. For more information on the Academic Integrity Policies of the School of Arts and Sciences, see this <a href="http://www.as.pitt.edu/faculty/policy/integrity.html">link</a>  
+            Unless otherwise stated, each student is expected to do his/her own work. A student caught collaborating/cheating in any way will fail the class immediately and will also immediately be reported to the Department of Academic Integrity and may be subject to stronger actions. Note: Submissions that are alike in a substantive way (not due to coincidence) will be considered to be cheating by ALL involved parties. Please protect yourselves by only storing your files in private directories or repositories, and by retrieving any printouts promptly. For more information on the Academic Integrity Policies of the School of Arts and Sciences, see this <a href="http://www.as.pitt.edu/faculty/policy/integrity.html">link</a>
           </li>
           <li class="b-five">
-            Late Work: Believe it or not, all of you work must be submitted on time. This usually means at or before 11:59pm on the day it's due. The system works like this: 1 class late - 25% off. 2 classes late - 50% off. 3 classes late - you can just keep it, no credit will be given.
+            Late Work: Believe it or not, all of your work must be submitted on time. This usually means at or before 11:59PM on the day it's due. The system works like this: 1 class late - 25% off. 2 classes late - 50% off. 3 classes late - you can just keep it, no credit will be given.
           </li>
           <li class="b-five">
-            You are required to attend class. I don't always take attendance, but it is highly likely that I will notice if you aren't there. I know life happens sometimes, so if you have to miss class, please email me to let me know in advance as soon as possible. You will be responsible for getting any in class notes. If a you miss a lecture, you are still responsible for the material covered and it is advised to copy the notes from a classmate. If that isn't possible for some reason, see me and we can arrange something.
+            You are required to attend class. I don't always take attendance, but it is highly likely that I will notice if you aren't there. I know life happens sometimes, so if you have to miss class, please email me to let me know in advance as soon as possible. You will be responsible for getting any in class notes. If you miss a lecture, you are still responsible for the material covered and it is advised to copy the notes from a classmate. If that isn't possible for some reason, see me and we can arrange something.
           </li>
           <li class="b-five">
             An abundance of information, including announcements, handouts, review sheets and solutions will be posted on the class site (and possibly TA pages as well) throughout the term. You are expected to be aware of all information that is posted on our web pages, and should access them frequently in order to stay current.
@@ -164,13 +164,13 @@
         <p class="uc red-txt bold">Project</p>
         <ul>
           <li>
-            In addition to the tests and quizzes, we will have a large scale project that will span the course of the semester.
+            In addition to the tests and quizzes, we will have a large-scale project that will span the course of the semester.
           </li>
           <li>
-            This will be split out into 2 sections. The first section will incorporate concepts we have gone over up until about the halfway point of class. You'll never guess what the second sections is about...
+            This will be split out into 2 sections. The first section will incorporate concepts we have gone over up until about the halfway point of class. You'll never guess what the second section is about...
           </li>
           <li>
-            You are free to leverage front end frameworks for visual appearance and some functionality. Bootstrap and Foundation are two of the most popular and actively supported platforms.
+            You are free to leverage front-end frameworks for visual appearance and some functionality. Bootstrap and Foundation are two of the most popular and actively supported platforms.
           </li>
           <li>
             This will be a "flat" site. This means that we will not implement any server side frameworks or MVC structures.
