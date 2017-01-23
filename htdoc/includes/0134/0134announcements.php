@@ -9,7 +9,8 @@
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Class Announcements and Info</p>
         <ul class="info-bubble last-row">
-
+          <li class="date">1.23.17</li>
+          <li>New office hours have been added...check the instructor section for more deets!</li>
         </ul>
       </div>
     </div>

@@ -5,18 +5,18 @@
         <h1>TA Info</h1>
       </div>
       <div class="col-lg-12 centered">
-        <p class="med"></p>
+        <p class="med">Zhenjiang Fan</p>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered b-ten">
-        <p class="uc red-txt bold">Henrique Potter</p>
+        <p class="uc red-txt bold"></p>
         <span class="glyphicon glyphicon-envelope"></span>
-        <a href="mailto:henriquepotter.hp@gmail.com">henriquepotter.hp@gmail.com</a>
+        <a href="mailto:zfh16@pitt.edu">zhf16@pitt.edu</a>
       </div>
       <span class="glyphicon glyphicon-star-empty block centered b-ten"></span>
       <div class="col-lg-12 centered">
         <p class="uc red-txt bold">Office Hours</p>
-        <p>TBA</p>
+        <p>Contact TA for office hours</p>
         <p></p>
       </div>
     </div>
