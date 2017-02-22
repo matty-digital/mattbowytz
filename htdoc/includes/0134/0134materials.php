@@ -37,6 +37,9 @@
             <a target="_blank" href="https://docs.google.com/presentation/d/1AvIpWReUrYlSpUOG0xpQ8Uh_oY1AEL-3qvIZcgQPejM/edit?usp=sharing">Lecture 8 - Tables</a>
           </li>
           <li class="b-ten">
+            <a target="_blank" href="https://docs.google.com/presentation/d/1Y2GkaAJbbwEMp_mMoIJtKmiLTaLteWj-UFf5EUQLUQ0/edit?usp=sharing">Lecture 8.5 - Lists &amp; Links</a>
+          </li>
+          <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1vyBMid0MF7dz7c8OGR9Yb1_GU3_tToOSfeV81DfdWBA/edit?usp=sharing">Lecture 9 - Images</a>
           </li>
           <li class="b-ten">
