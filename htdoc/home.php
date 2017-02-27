@@ -24,6 +24,11 @@
   <body>
     <div class="container">
       <div class="row">
+        <a href="https://goo.gl/forms/uHYHaImhErDnO5GG3">1520 MIDTERM</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-lg-12 centered">
           <h1 class=>WELCOME</h1>
           <h3>If you're looking for some computer science class sites, you've come to the right place!</h3>
