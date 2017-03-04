@@ -1,0 +1,19 @@
+body {
+	background-color: #dcdcdc;
+}
+
+h1 {
+	float: left;
+	color: red;
+	font-size: 300%;
+	font-family: georgia;
+}
+
+ul {
+  clear: both;
+	margin-bottom: 3%;
+}
+
+h2 {
+	margin-bottom: 2%;
+}
