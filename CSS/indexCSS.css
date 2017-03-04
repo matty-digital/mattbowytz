@@ -1,0 +1,32 @@
+body {
+	background-color: #dcdcdc;
+}
+
+h1 {
+	float: center;
+	text-align: center;
+	color: red;
+	font-family: Georgia;
+	font-size: 400%;
+}
+
+h2 {
+	clear: both;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia;
+}
+
+#shop {
+	display: block;
+	margin: auto;
+	width: 400px;
+}
+
+#cart {
+	display: block;
+	margin: auto;
+	max-width: 75%;
+	width: 300px;
+	height: 300px;
+}
