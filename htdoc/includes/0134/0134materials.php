@@ -52,7 +52,7 @@
             <a target="_blank" href="https://docs.google.com/presentation/d/1FL2Ppu5muDzAR7dxneESyLo2Lw74Bii5TP3gy1eIxWw/edit?usp=sharing">Lecture 12 - Transitions &amp; Animations</a>
           </li>
           <li class="b-ten">
-            <a target="_blank" href="https://docs.google.com/presentation/d/1uo12xhcbdgjAh4ZLQV53G2eJdY18v4ZYSGHbiNhs0wo/edit?usp=sharing">Lecture 13 - JS &amp; jQuery</a>
+            <a target="_blank" href="https://docs.google.com/presentation/d/1uTcTE8cRdIssSGdLEB-p2M8v84II6L1b2lbWr6YNiSw/edit?usp=sharing">Lecture 13 - JS &amp; jQuery</a>
           </li>
           <li class="b-ten">
             <a target="_blank" href="https://docs.google.com/presentation/d/1uo12xhcbdgjAh4ZLQV53G2eJdY18v4ZYSGHbiNhs0wo/edit?usp=sharing">Lecture 14 - jQuery UI</a>
