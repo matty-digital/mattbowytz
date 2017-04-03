@@ -1,0 +1,44 @@
+body {
+	background-color: #dcdcdc;
+}
+
+h1 {
+	float: left;
+	color: red;
+	font-size: 400%;
+	font-family: georgia;
+}
+
+form {
+	clear: both;
+}
+
+#bbat {
+	height: 125px;
+	width: 250px;
+}
+
+#bball {
+	height: 200px;
+	width: 200px;
+}
+
+#football {
+  height: 175px;
+	width: 225px;
+}
+
+#table {
+	height: 175px;
+	width: 225px;
+}
+
+#sball {
+	height: 200px;
+	width: 200px;
+}
+
+#t_rack {
+	height: 175px;
+	width: 225px;
+}

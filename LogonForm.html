@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <link href = "CSS/LogonCSS.css" rel = "stylesheet">
+    <title>Sign Up/Log In</title>
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <a href = "index.html">Home</a>
+	<a href = "LogonForm.html">Log In/Create an Account</a>
+	<a href = "AboutUs.html">About Us</a>
+      </nav>
+      <h1>Sign Up or Log In</h1>
+    </header>
+	
+    <main>
+      <h2>If you already have an account:</h2>
+      <form name = "login" action = "" method = "post" id = form1>
+        <p>Username: <input type = "text" name = "username" required></p>
+	<p>Password: <input type = "text" name = "password" required></p>
+	<button type = "submit">Log In</button>
+      </form>
+      <h2>If you would like to sign up:</h2>
+      <form name = "new_signup" action = "" method = "post" id = form2>
+        <p>Please enter the following information:</p>
+	<p>Name: <input type = "text" name = "name" required></p>
+	<p>Age: <input type = "text" name = "age" required></p>
+	<p>Phone: <input type = "text" name = "phone" required></p>
+	<p>E-Mail: <input type = "text" name = "email" required></p>
+	<p>Username: <input type = "text" name = "new_username" required></p>
+	<p>Password (must be at least 5 alphanumeric characters): <input type = "text" name = "password" required pattern = "[a-zA-z0-9]{5,}"></p>
+	<button type = "submit">Create New Account</button>
+      </form>
+    </main>
+  
+    <footer>
+      <p>© Copyright 2017 Marcinek Sporting Goods</p>	
+    </footer>
+  </body>
+</html>
