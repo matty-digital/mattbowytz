@@ -1,48 +1,48 @@
 body {
-	background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 
 h1 {
-	text-align: center;
-	color: red;
-	font-family: Georgia;
-	font-size: 400%;
-	-webkit-transition: font-size 2s;
+  text-align: center;
+  color: red;
+  font-family: Georgia;
+  font-size: 400%;
+  -webkit-transition: font-size 2s;
 }
 
 h1:hover {
-	font-size: 500%
+  font-size: 500%
 }
 
 #greeting {
-	clear: both;
-	font-style: italic;
-	text-align: center;
-	font-family: Georgia;
-	-webkit-transition: color 1s;
+  clear: both;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia;
+  -webkit-transition: color 1s;
 }
 
 #greeting:hover {
-	color: firebrick;
+  color: firebrick;
 }
 
 #welcome {
-	clear: both;
-	text-align: center;
-	font-size: 300%;
-	display: none;
+  clear: both;
+  text-align: center;
+  font-size: 300%;
+  display: none;
 }
 
 #shop {
-	display: block;
-	margin: auto;
-	width: 400px;
+  display: block;
+  margin: auto;
+  width: 400px;
 }
 
 #cart {
-	display: block;
-	margin: auto;
-	max-width: 75%;
-	width: 300px;
-	height: 300px;
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  width: 300px;
+  height: 300px;
 }
