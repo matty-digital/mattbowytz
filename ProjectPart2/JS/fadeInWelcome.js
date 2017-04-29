@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $("#greeting").click(function(){
-	$("#welcome").fadeIn();
-	});
+    $("#welcome").fadeIn();
+    });
 });
