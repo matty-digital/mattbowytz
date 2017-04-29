@@ -1,0 +1,17 @@
+body {
+  background-color: #dcdcdc;
+}
+
+h1 {
+  float: left;
+	color: red;
+	font-size: 400%;
+	font-family: georgia;
+}
+
+#cart {
+	margin-left: 5%;
+	clear: both;
+	height: 275px;
+	width: 275px;
+}
