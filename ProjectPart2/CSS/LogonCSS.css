@@ -1,0 +1,32 @@
+body {
+	background-color: #dcdcdc;
+}
+
+h1 {
+	float: left;
+	color: red;
+	font-size: 300%;
+	font-family: georgia;
+}
+
+h2, #form1, #form2 {
+	clear: both;
+}
+
+#form1, #form2 {
+	border: 2px solid red;
+	padding: 1.5%;
+	float: left;
+}
+
+#form1 {
+	margin-bottom: 3%;
+}
+
+#form2 {
+	margin-bottom: 3%;
+}
+
+footer{
+	clear: both;
+}
